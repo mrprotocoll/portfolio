@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css'
 
 export const metadata = {
   title: 'Mrprotocoll Portfolio',
