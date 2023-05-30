@@ -1,5 +1,13 @@
-const Card = ({children}) => {
+import CardOverlay from "./CardOverlay";
+
+const Card = ({children, classes, link}) => {
     return (
-        <div className="card">{children}</div>
+        <div className={`${classes} info-box shadow-box h-full` }>
+            <CardOverlay link={link} />
+
+            {children}
+        </div>
     )
 }
+
+export default Card;

@@ -8,8 +8,8 @@ const AboutCard = ({ data }) => {
     return (
         <div className="about-me-box shadow-box">
             <CardOverlay link="/about"/>
-            <div className="img-box">
-                <Image src={image} alt="About Me" width={450} height={452} />
+            <div className="img-box position-relative">
+                <Image src={image} fill alt="About Me" />
             </div>
             <div className="about_bio">
                 <CardInfo name={title} title={name} subtitle={bio} link="/about" />

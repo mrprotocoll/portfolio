@@ -1,19 +1,23 @@
 import Image from "next/image"
 import CardInfo from "@components/CardInfo"
-import CardOverlay from "@components/CardOverlay"
+import Card from "@components/Card"
 
 const Credential = () => {
+    const year = parseInt((new Date()).getFullYear()) - 2020 
     return (
         <div data-aos="zoom-in">
-            <div className="about-crenditials-box info-box shadow-box h-full">
-                <CardOverlay link="/credentials"/>
-
-                <Image src="/assets/images/sign.png" alt="Sign" width={224} height={126} />
+            <Card classes="about-client-box" link="https://docs.google.com/document/d/1GmCyGmMZcX5VIO0VFHmXWKmSEWzNAgvTgBERF3ZbEn0/edit?usp=sharing">
+                <div class="clients mb-2">
+                    <div class="client-item">
+                        <h1>{year}</h1>
+                        <p>Years <br />Experience</p>
+                    </div>
+                </div>
 
                 <div className="d-flex align-items-center justify-content-between">
-                    <CardInfo name="more about me" title="Credentials" />
+                    <CardInfo name="RESUME" title="Download CV" />
                 </div>
-            </div>
+            </Card>
         </div>
     )
 }
