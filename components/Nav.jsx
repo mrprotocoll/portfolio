@@ -9,13 +9,12 @@ const Nav = () => {
                 <div class="gx-row d-flex align-items-center justify-content-between">
                     <Link href="/" className="flex gap-2 flex-center">
                         <Image 
-                        src="/assets/images/logo.svg" 
+                        src="/assets/images/logo.png" 
                         alt="Mrprotocoll portfolio logo" 
-                        width={30} 
-                        height={30} 
+                        width={200} 
+                        height={50} 
                         className="object-contain" />
                     </Link>
-                    
 
                     <nav class="navbar">
                         <ul class="menu">
@@ -27,7 +26,6 @@ const Nav = () => {
                     </nav>
 
                     <Link href="/contact" className="theme-btn">Let's talk</Link>
-                    {/* <a href="contact.html" class="theme-btn">Let's talk</a> */}
 
                     <div class="show-menu">
                         <span></span>
