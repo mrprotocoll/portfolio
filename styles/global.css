@@ -15,7 +15,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     scroll-behavior: smooth;
-    color: #9f9f9f;
+    color: #b4b4b4;
     /* height: 100vh; */
     background: var(--body-color);
     /* background: rgb(14,14,14);
@@ -224,7 +224,7 @@ ol {
     bottom: 0;
     left: 0;
     /* background: linear-gradient(to right, rgb(255 255 255 / 15%), rgb(255 255 255 / 1%)); */
-    background: linear-gradient(120deg, rgb(255 255 255 / 12%), rgb(255 255 255 / 1%));
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.12), rgb(255 255 255 / 1%));
     content: '';
     z-index: -1;
     border-radius: 30px;
@@ -517,7 +517,7 @@ ol {
 }
 .header-area .navbar .menu li a {
     font-size: 16px;
-    color: #676767;
+    color: #989898;
     transition: .3s;
     display: block;
     padding: 26px 0px;
@@ -574,8 +574,9 @@ ol {
     position: relative;
     overflow: hidden;
     /* background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%); */
-    background: radial-gradient(circle, rgba(24,154,180,1) 0%, rgba(117,230,218,1) 47%, rgba(45,155,161,1) 100%);
+    /* background: radial-gradient(circle, rgba(24,154,180,1) 0%, rgba(117,230,218,1) 47%, rgba(45,155,161,1) 100%); */
     /* background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%); */
+background: radial-gradient(circle, rgba(24,154,180,1) 0%, rgba(45,155,161,1) 47%, rgba(24,154,180,1) 91%);
     border-radius: 30px 0 30px 0;
     flex: none;
 }
@@ -1620,6 +1621,13 @@ ol {
     }
 }
 
+.about-area .blog-service-profile-wrap {
+    display: grid !important;
+    grid-template-columns: 1.2fr 2fr;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* Responsive */
 @media (max-width: 1090px) {
     .container {
@@ -1720,8 +1728,8 @@ ol {
     }
 
     .about-area .container > .row:nth-child(2) .blog-service-profile-wrap {
-        /* display: grid !important; */
-        /* grid-template-columns: 1fr 1fr; */
+        /* display: grid !important;
+        grid-template-columns: 1fr fr; */
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -1776,6 +1784,13 @@ ol {
     }
     .about-area .about-details .section-heading {
         margin-bottom: 40px;
+    }
+
+    .about-area .blog-service-profile-wrap {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
 
