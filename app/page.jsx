@@ -43,27 +43,25 @@ export default function Home() {
                 <Credential />
                 <Projects />
               </div>
-            </div>
-
-            
+            </div> 
           </div>
         </div>
 
-        <div class="row mt-24">
-          <div class="col-md-12">
-            <div class="blog-service-profile-wrap d-flex gap-24">
+        <div className="row mt-24">
+          <div className="col-md-12">
+            <div className="blog-service-profile-wrap d-flex gap-24">
               <Skills />
               <Tools />
             </div>
           </div>
         </div>
 
-        <div class="row mt-24">
-          <div class="col-md-3" data-aos="zoom-in">
+        <div className="row mt-24">
+          <div className="col-md-3" data-aos="zoom-in">
             <Blog />
           </div>
 
-          <div class="col-md-6" data-aos="zoom-in">
+          <div className="col-md-6" data-aos="zoom-in">
             <Contact />
           </div>
         </div>

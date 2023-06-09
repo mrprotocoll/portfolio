@@ -1,5 +1,4 @@
 import Image from "next/image"
-import '@styles/about.css'
 import CardOverlay from "@components/CardOverlay"
 import CardInfo from "@components/CardInfo"
 
