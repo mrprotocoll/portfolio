@@ -11,7 +11,8 @@ const Nav = () => {
                     src="/assets/images/logo.png" 
                     alt="Mrprotocoll portfolio logo" 
                     width={200} 
-                    height={50} 
+                    height={50}
+                    layout="responsive" 
                     className="object-contain" />
                 </Link>
 
