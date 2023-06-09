@@ -36,6 +36,10 @@ body {
     color: var(--btn-color);
 }
 
+.mrprotocoll {
+    color: var(--btn-color) !important;
+}
+
 img {
     max-width: 100%;
 }
@@ -1540,8 +1544,8 @@ background: radial-gradient(circle, rgba(24,154,180,1) 0%, rgba(45,155,161,1) 47
 
 /* # Footer */
 .footer-area {
-    padding-top: 128px;
-    padding-bottom: 78px;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 .main-workspage .footer-area {
     padding-top: 104px;

@@ -14,7 +14,7 @@ const Credential = () => {
                 </div>
 
                 <div className="d-flex align-items-center justify-content-between">
-                    <CardInfo name="RESUME" title="Download CV" />
+                    <CardInfo name="DOWNLOAD RESUME" title="My Resume" />
                 </div>
             </Card>
         </div>
