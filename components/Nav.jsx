@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Nav = () => {
     return (
-        <header class="header-area">
-            <div class="gx-row d-flex align-items-center justify-content-between">
+        <header className="header-area">
+            <div className="gx-row d-flex align-items-center justify-content-between">
                 <Link href="/" className="flex gap-2 flex-center">
                     <Image 
                     src="/assets/images/logo.png" 
@@ -15,8 +15,8 @@ const Nav = () => {
                     className="object-contain" />
                 </Link>
 
-                <nav class="navbar">
-                    <ul class="menu">
+                <nav className="navbar">
+                    <ul className="menu">
                         <li className="active"><Link href="/">About</Link></li>
                         <li><Link href="/">Works</Link></li>
                         <li><Link href="/">Contact</Link></li>
@@ -26,7 +26,7 @@ const Nav = () => {
 
                 <Link href="/contact" className="theme-btn">Let's talk</Link>
 
-                <div class="show-menu">
+                <div className="show-menu">
                     <span></span>
                     <span></span>
                     <span></span>

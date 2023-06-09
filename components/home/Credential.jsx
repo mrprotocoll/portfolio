@@ -1,4 +1,3 @@
-import Image from "next/image"
 import CardInfo from "@components/CardInfo"
 import Card from "@components/Card"
 
@@ -7,8 +6,8 @@ const Credential = () => {
     return (
         <div data-aos="zoom-in">
             <Card classes="about-client-box" link="https://docs.google.com/document/d/1GmCyGmMZcX5VIO0VFHmXWKmSEWzNAgvTgBERF3ZbEn0/edit?usp=sharing">
-                <div class="clients mb-2">
-                    <div class="client-item">
+                <div className="clients mb-2">
+                    <div className="client-item">
                         <h1>{year}</h1>
                         <p>Years <br />Experience</p>
                     </div>
