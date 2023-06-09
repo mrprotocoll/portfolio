@@ -40,6 +40,13 @@ body {
     color: var(--btn-color) !important;
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 img {
     max-width: 100%;
 }
@@ -1546,7 +1553,6 @@ ol {
 /* # Footer */
 .footer-area {
     padding-top: 28px;
-    
 }
 .main-workspage .footer-area {
     padding-top: 104px;
