@@ -1553,8 +1553,17 @@ ol {
 
 /* # Footer */
 .footer-area {
-    padding-top: 28px;
+    padding-top: 48px;
 }
+
+.footer-area .social-links {
+    border-radius: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.103);
+    padding: 10px 1rem;
+}
+
 .main-workspage .footer-area {
     padding-top: 104px;
 }
@@ -1596,7 +1605,7 @@ ol {
 
 .footer-area .social-links {
     gap: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .footer-area .social-links li a {
     width: 45px;

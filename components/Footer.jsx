@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="footer-content align-items-center justify-content-between d-flex text-center">
                     <ul className="footer-menu">
                         <li><a href="/about">About</a></li>
-                        <li><a href="/works">Works</a></li>
+                        <li><a href="/project">Works</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                     <ul className="social-links d-flex justify-content-center">
