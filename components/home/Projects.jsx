@@ -6,7 +6,7 @@ import Card from "@components/Card"
 const Projects = () => {
     return (
         <div data-aos="zoom-in">
-            <Card classes="about-project-box" link="/projects">
+            <Card classes="about-project-box" link="/project">
                 <Image src="/assets/images/my-works.png" layout="responsive" alt="Sign" width={224} height={126} className="mt-2" />
 
                 <div className="d-flex align-items-center justify-content-between ">

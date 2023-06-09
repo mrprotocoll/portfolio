@@ -18,9 +18,9 @@ const Nav = () => {
 
                 <nav className="navbar">
                     <ul className="menu">
-                        <li className="active"><Link href="/">About</Link></li>
-                        <li><Link href="/">Works</Link></li>
-                        <li><Link href="/">Contact</Link></li>
+                        <li><Link href="/about">About</Link></li>
+                        <li><Link href="/project">Projects</Link></li>
+                        <li><Link href="/contact">Contact</Link></li>
                     </ul>
                     <Link href="/contact" className="theme-btn">Let's talk</Link>
                 </nav>
