@@ -497,7 +497,7 @@ ol {
 /* # Header */
 .header-area{
     margin-top: 10px;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     border-width: 1px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.103);
@@ -1433,6 +1433,7 @@ ol {
     top: 0;
     right: 50px;
 }
+
 .contact-area .contact-form h1 {
     font-size: 44px;
     color: #ffffff;
@@ -1947,6 +1948,12 @@ ol {
 
 }
 @media (max-width: 585px) {
+    .about-area .blog-service-profile-wrap {
+        display: grid !important;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .about-area .about-me-box {
         flex-direction: column;
     }
@@ -2064,7 +2071,20 @@ ol {
         width: 70px;
         height: 70px;
     }
-    
+
+    .footer-content {
+        display: flex;
+        flex-direction: column !important;
+        padding-bottom: 10px;
+    }
+
+    .footer-area .footer-content .footer-menu {
+        margin-bottom: 15px;
+    }
+
+    .header-area {
+        padding: 5px 10px;
+    }
 }
 @media (max-width: 425px) {
     .about-area .about-me-box .infos h1 {
