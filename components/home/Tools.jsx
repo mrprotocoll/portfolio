@@ -1,3 +1,5 @@
+"use client"
+
 import Card from "@components/Card";
 import CardInfo from "@components/CardInfo";
 import Image from "next/image";

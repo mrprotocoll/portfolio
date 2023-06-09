@@ -8,8 +8,12 @@ import Footer from '@components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Mrprotocoll Portfolio',
+  title: {
+    default: 'Mrprotocoll Portfolio',
+    template: '%s | Mrprotocoll Portfolio'
+  },
   description: 'This is my personal portfolio, where I showcase my skills, projects, and journey. Join me as I explore the world of technology and share my creative endeavors',
+  keyword: []
 }
 
 export default function RootLayout({ children }) {
@@ -21,7 +25,6 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </main>
-        
       </body>
     </html>
   )
