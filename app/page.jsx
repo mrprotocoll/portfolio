@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="row mt-24">
+        {/* <div className="row mt-24">
           <div className="col-md-3" data-aos="zoom-in">
             <Blog />
           </div>
@@ -64,7 +64,7 @@ export default function Home() {
           <div className="col-md-6" data-aos="zoom-in">
             <Contact />
           </div>
-        </div>
+        </div> */}
     </section>
   )
 }
