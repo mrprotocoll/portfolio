@@ -12,9 +12,9 @@ const Tools = () => {
     useEffect(
         () => {
             (async () => {
-                const res = await fetch("/db/bio.json")
+                const res = await fetch("/db/tools.json")
                 const resData = await res.json()
-                setTools(resData.tools)
+                setTools(resData)
             })()
         }, []
     )

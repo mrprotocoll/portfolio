@@ -10,9 +10,9 @@ const Skills = () => {
     useEffect(
         () => {
             (async () => {
-                const res = await fetch("/db/bio.json")
+                const res = await fetch("/db/skills.json")
                 const resData = await res.json()
-                setSkills(resData.skills)
+                setSkills(resData)
             })()
         }, []
     )
