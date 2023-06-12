@@ -279,6 +279,12 @@ ol {
 .info-box {
     padding: 24px;
 }
+
+.credential-sidebar .img-box {
+    width: 100%;
+    height: 323px;
+}
+
 .credential-area .credential-sidebar .overlay-link,
 .contact-area .contact-form .overlay-link,
 .project-details-wrap .project-about-2 .overlay-link,
@@ -579,15 +585,12 @@ ol {
     align-items: flex-start;
     gap: 30px;
 }
-.jabout-area .about-me-box .img-box {
+.about-area .about-me-box .img-box {
     width: 224px;
     height: 224px;
     position: relative;
     overflow: hidden;
-    /* background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%); */
-    /* background: radial-gradient(circle, rgba(24,154,180,1) 0%, rgba(117,230,218,1) 47%, rgba(45,155,161,1) 100%); */
-    /* background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%); */
-    background: radial-gradient(circle, rgba(24,154,180,1) 0%, rgba(45,155,161,1) 47%, rgba(24,154,180,1) 91%);
+    background: linear-gradient(90deg, var(--btn-color) -15%, #C2EBFF 58%, var(--btn-color) 97%);
     border-radius: 30px 0 30px 0;
     flex: none;
 }
@@ -2094,8 +2097,15 @@ ol {
     .header-area {
         padding: 5px 10px;
     }
+
+    .credential-sidebar .img-box {
+        height: 455px !important;
+    }
 }
 @media (max-width: 425px) {
+    .credential-sidebar .img-box {
+        height: 455px !important;
+    }
     .about-area .about-me-box .infos h1 {
         font-size: 30px;
     }

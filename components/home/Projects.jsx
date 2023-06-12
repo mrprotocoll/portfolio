@@ -1,6 +1,5 @@
 import Image from "next/image"
 import CardInfo from "@components/CardInfo"
-import CardOverlay from "@components/CardOverlay"
 import Card from "@components/Card"
 
 const Projects = () => {
