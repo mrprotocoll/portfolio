@@ -1,13 +1,19 @@
+"use client"
+
 import CardOverlay from "@components/CardOverlay"
 import Form from "@components/contact/Form"
 import { Twitter, GitHub, LinkedIn, Medium, Mail } from 'iconoir-react'
-
-export const metadata = {
-  title: 'Contact'
-}
+import Aos from "aos"
+import { useEffect } from "react"
 
 export default function Contact() {
-
+  useEffect(() => {
+    Aos.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+      });
+  },[])
   return (
     <section className="contact-area">
     <div className="container">

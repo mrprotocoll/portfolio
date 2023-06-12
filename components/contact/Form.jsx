@@ -9,8 +9,19 @@ const Form = () => {
     const [message, setMessage] = useState("")
     const [errorMessage, setErrorMessage] = useState("")
 
-    const handleSubmit = () => {
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
         if(name && email && subject && message) {
+            await fetch("https://formsubmit.co/mrprotocoll@yahoo.com", {
+                method: "POST",
+                body: JSON.stringify({
+                    name,
+                    email,
+                    subject,
+                    message
+                })
+            })
             setEmail("")
             setMessage("")
             setName("")
@@ -33,14 +44,14 @@ const Form = () => {
                 <input type="text" name="subject" id="subject" placeholder="Your Subject *" onChange={(e) => setSubject(e.target.value)} value={subject} />
             </div>
             <div className="input-group">
-                <textarea name="message" id="message" placeholder="Your Message *" onChange={(e) => setMessage(e.target.value)} >{message}</textarea>
+                <textarea name="message" id="message" placeholder="Your Message *" onChange={(e) => setMessage(e.target.value)} value={message} ></textarea>
             </div>
            
             <div className="input-group">
                 <button className="theme-btn submit-btn" name="submit" type="submit">Send Message</button>
             </div>
-            
-            <div className={`alert alert-danger messenger-box-contact__msg ${errorMessage ? "d-block" : "d-none"}`} role="alert">
+
+            <div className={`mt-2 alert alert-danger messenger-box-contact__msg ${errorMessage ? "d-block" : "d-none"}`} role="alert">
                 {errorMessage}
             </div>
         </form>

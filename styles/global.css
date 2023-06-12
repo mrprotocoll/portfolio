@@ -32,6 +32,12 @@ body {
     /* background: #05445E; */
 }
 
+::placeholder {
+    color: rgb(206, 206, 206); /* Change the text color */
+    font-style: italic; /* Add italic style */
+    font-size: 14px; /* Adjust the font size */
+}
+
 .marquee a {
     color: var(--btn-color);
 }
