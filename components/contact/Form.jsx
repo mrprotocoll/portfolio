@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react"
 
 const Form = () => {
@@ -15,15 +17,12 @@ const Form = () => {
             setSubject("")
             setErrorMessage("")
         }else {
-            setErrorMessage("All fields are")
+            setErrorMessage("All fields are required")
         }
     }
 
     return (
         <form onSubmit={handleSubmit}>
-            {/* <div className="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
-                Your message was sent successfully.
-            </div> */}
             <div className="input-group">
                 <input type="text" name="full-name" id="full-name" placeholder="Name *" onChange={(e) => setName(e.target.value)} value={name} />
             </div>
@@ -36,11 +35,13 @@ const Form = () => {
             <div className="input-group">
                 <textarea name="message" id="message" placeholder="Your Message *" onChange={(e) => setMessage(e.target.value)} >{message}</textarea>
             </div>
-            <div className="alert alert-danger messenger-box-contact__msg" style={`display: ${errorMessage ? "block" : "none"}`} role="alert">
-                {errorMessage}
-            </div>
+           
             <div className="input-group">
                 <button className="theme-btn submit-btn" name="submit" type="submit">Send Message</button>
+            </div>
+            
+            <div className={`alert alert-danger messenger-box-contact__msg ${errorMessage ? "d-block" : "d-none"}`} role="alert">
+                {errorMessage}
             </div>
         </form>
     )

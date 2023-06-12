@@ -179,7 +179,7 @@ ol {
 
 .theme-btn {
     background: transparent;
-    border: 1px solid var(--btn-color);
+    border: 1px solid var(--btn-color) !important;
     color: var(--btn-color);
     display: inline-block;
     transition: .3s;
@@ -1502,9 +1502,9 @@ ol {
     border-radius: 10px;
     flex: none;
     text-align: center;
-    line-height: 75px;
+    line-height: 63px;
     font-size: 30px;
-    color: #ffffff;
+    color: #bbbbbb;
 }
 .contact-area .contact-infos .contact-details li .icon-box::after,
 .contact-area .contact-infos .contact-details li .icon-box::before {
@@ -1533,14 +1533,14 @@ ol {
     gap: 20px;
 }
 .contact-area .social-links li a {
-    width: 82px;
-    height: 82px;
+    width: 60px;
+    height: 60px;
     display: block;
     text-align: center;
-    line-height: 92px;
-    color: #ffffff;
+    line-height: 60px;
+    color: #c7c7c7;
     border-radius: 50%;
-    font-size: 32px;
+    font-size: 20px;
     transition: .3s;
 }
 .contact-area .social-links li a:hover {
