@@ -15,15 +15,13 @@ export default function About() {
       <div className="container">
         <div className="gx-row d-flex">
           <AboutCard />
-
           <div className="credential-content flex-1">
-              
-              <Bio />
-              <Experience />
-              <Experience education />
-              <Skills />
-              <br/>
-              <Tools />
+            <Bio />
+            <Experience />
+            <Experience education />
+            <Skills />
+            <br/>
+            <Tools />
           </div>
         </div>
       </div>
