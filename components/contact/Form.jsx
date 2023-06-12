@@ -1,6 +1,8 @@
 "use client"
 
 import { useState } from "react"
+import { toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Form = () => {
     const [name, setName] = useState("")
@@ -9,31 +11,45 @@ const Form = () => {
     const [message, setMessage] = useState("")
     const [errorMessage, setErrorMessage] = useState("")
 
+    const successMessage  = () => toast.success("Message received. I will respond shortly", {
+        position: "top-center",
+        autoClose: 10000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+    })
+
     const handleSubmit = async (e) => {
         e.preventDefault()
+        const formData = new FormData(e.target);
 
         if(name && email && subject && message) {
-            await fetch("https://formsubmit.co/mrprotocoll@yahoo.com", {
+            await fetch("https://formsubmit.co/484a1c2a8f3c061ae9394232d0ac6571", {
                 method: "POST",
-                body: JSON.stringify({
-                    name,
-                    email,
-                    subject,
-                    message
-                })
+                body: new URLSearchParams(formData),
             })
-            setEmail("")
-            setMessage("")
-            setName("")
-            setSubject("")
-            setErrorMessage("")
+            .then((response) => {
+                if(response.ok) {
+                    successMessage()
+
+                    setEmail("")
+                    setMessage("")
+                    setName("")
+                    setSubject("")
+                    setErrorMessage("")
+                } 
+            })
+
         }else {
             setErrorMessage("All fields are required")
         }
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} id="form">
             <div className="input-group">
                 <input type="text" name="full-name" id="full-name" placeholder="Name *" onChange={(e) => setName(e.target.value)} value={name} />
             </div>

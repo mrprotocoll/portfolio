@@ -5,6 +5,8 @@ import Form from "@components/contact/Form"
 import { Twitter, GitHub, LinkedIn, Medium, Mail } from 'iconoir-react'
 import Aos from "aos"
 import { useEffect } from "react"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
   useEffect(() => {
@@ -53,6 +55,16 @@ export default function Contact() {
             
         </div>
     </div>
+    <ToastContainer position="top-center"
+                autoClose={10000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="light" />
 </section>
   )
 }
