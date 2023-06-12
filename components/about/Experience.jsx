@@ -3,8 +3,9 @@
 import Aos from "aos"
 import { useEffect, useState } from "react";
 
-const Experience = () => {
+const Experience = ({ education = false }) => {
     const [data, setData] = useState([])
+    const endpoint = education ? "/db/education.json" : "/db/experience.json"
 
     useEffect(() => {
         Aos.init({
@@ -15,7 +16,7 @@ const Experience = () => {
 
         // get profile data 
         (async () => {
-        const response = await fetch("/db/experience.json")
+        const response = await fetch(endpoint)
         const responseData = await response.json()
 
         setData(responseData)
@@ -24,7 +25,7 @@ const Experience = () => {
 
     return (
         <div className="credential-edc-exp credential-experience">
-        <h2 data-aos="fade-up">Experience</h2>
+        <h2 data-aos="fade-up">{education ? "Education" : "Experience"}</h2>
             {
                 data.map(data => (
                     <div className="credential-edc-exp-item" data-aos="zoom-in">
