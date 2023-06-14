@@ -760,7 +760,7 @@ ol {
     padding-top: 65px;
 }
 .projects-area .container > .section-heading {
-    display: none;
+    /* display: none; */
 }
 .projects-area .section-heading {
     justify-content: center;
