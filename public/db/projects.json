@@ -9,8 +9,8 @@
         "github": "#",
         "link": "https://youroutreachspecialist.com",
         "category": "Web Application",
-        "image": "",
-        "gallery": ["",""]
+        "image": "/assets/images/projects/yos.png",
+        "gallery": ["/assets/images/projects/",""]
     },
     {
         "name": "Healthyish",
@@ -22,8 +22,8 @@
         "github": "#",
         "link": "https://healthyishng.com",
         "category": "Web Application",
-        "image": "",
-        "gallery": ["",""]
+        "image": "/assets/images/projects/healthyish2.png",
+        "gallery": ["/assets/images/projects/healthyish.png","/assets/images/projects/healthyish2.png"]
     },
     {
         "name": "Giftifyme",
@@ -35,8 +35,8 @@
         "github": "#",
         "link": "",
         "category": "Web Application",
-        "image": "",
-        "gallery": ["",""]
+        "image": "/assets/images/projects/gitfifyme.png",
+        "gallery": ["/assets/images/projects/gitfifyme2.png","/assets/images/projects/gitfifyme.png"]
     }
     
 ]
