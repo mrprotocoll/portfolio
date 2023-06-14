@@ -11,21 +11,22 @@ const Projects = () => {
 
     useEffect(() => {
         Aos.init({
-        easing: "ease-out-cubic",
-        once: true,
-        offset: 50,
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 50,
         });
-
-    }, []);
+    }, [])
 
     return (
-        <div class="d-flex align-items-start gap-24">
-          <div >
+        <div class="row align-items-start flex-wrap">
+          <div data-aos="zoom-in" class="col-md-4">
             <Card classes="project-item">
                 <div class="project-img">
-                  <Image src="/assets/images/projects/healthyish.png" alt="Sign" width={224} height={126} />
+                  <Image src="/assets/images/projects/healthyish2.png" alt="Sign" fill />
                 </div>
-                <CardInfo name="MOBILE DESIGNING" title="Seven Studio" />
+                <div className="d-flex align-items-center justify-content-between">
+                    <CardInfo name="MOBILE DESIGNING" title="Seven Studio" />
+                </div>
             </Card>
           </div>
         </div>
