@@ -6,13 +6,11 @@ const Nav = () => {
     return (
         <header className="header-area">
             <div className="gx-row d-flex align-items-center justify-content-between">
-                <Link href="/" className="flex gap-2 flex-center">
+                <Link href="/" className="flex gap-2 flex-center position-relative logo">
                     <Image 
                     src="/assets/images/logo.png" 
                     alt="Mrprotocoll portfolio logo" 
-                    width={200} 
-                    height={50}
-                    layout="responsive" 
+                    fill
                     className="object-contain" />
                 </Link>
 
