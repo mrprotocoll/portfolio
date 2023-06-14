@@ -5,7 +5,7 @@ export const metadata = {
 export default function Project() {
 
   return (
-    <section className="about-area">
+    <section className="projects-area">
       <h1>My Projects</h1>
     </section>
   )

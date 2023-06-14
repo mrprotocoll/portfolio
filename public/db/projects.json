@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Your Outreach Specialist",
+        "role": "Full-stack",
+        "date": "2021",
+        "description": "Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies. <br/> Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies.",
+        "tools": ["PHP", "JavaScript", "MySQL", "OOP"],
+        "features": ["EventLogging", "System user role and permission"],
+        "github": "#",
+        "link": "https://youroutreachspecialist.com",
+        "category": "Web Application",
+        "image": "",
+        "gallery": ["",""]
+    },
+    {
+        "name": "Healthyish",
+        "role": "Full-stack",
+        "date": "2021",
+        "description": "Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies. <br/> Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies.",
+        "tools": ["PHP", "JavaScript", "MySQL", "OOP"],
+        "features": ["e-commerce", "SBlog", "payment system"],
+        "github": "#",
+        "link": "https://healthyishng.com",
+        "category": "Web Application",
+        "image": "",
+        "gallery": ["",""]
+    },
+    {
+        "name": "Giftifyme",
+        "role": "Full-stack",
+        "date": "2021",
+        "description": "Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies. <br/> Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies.",
+        "tools": ["PHP", "JavaScript", "MySQL", "OOP"],
+        "features": ["EventLogging", "System user role and permission", "e-commerce", "payment system"],
+        "github": "#",
+        "link": "",
+        "category": "Web Application",
+        "image": "",
+        "gallery": ["",""]
+    }
+    
+]

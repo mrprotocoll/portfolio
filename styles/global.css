@@ -24,6 +24,11 @@ body {
     line-height: 19.2px;
 }
 
+.logo {
+    width: 119px;
+    height: 50px;
+}
+
 .shadow-box {
     position: relative;
     border-radius: 30px;
