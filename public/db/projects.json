@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "name": "Your Outreach Specialist",
         "role": "Full-stack",
         "date": "2021",
@@ -13,6 +14,7 @@
         "gallery": ["/assets/images/projects/",""]
     },
     {
+        "id": "2",
         "name": "Healthyish",
         "role": "Full-stack",
         "date": "2021",
@@ -26,6 +28,7 @@
         "gallery": ["/assets/images/projects/healthyish.png","/assets/images/projects/healthyish2.png"]
     },
     {
+        "id": "3",
         "name": "Giftifyme",
         "role": "Full-stack",
         "date": "2021",
@@ -33,9 +36,9 @@
         "tools": ["PHP", "JavaScript", "MySQL", "OOP"],
         "features": ["EventLogging", "System user role and permission", "e-commerce", "payment system"],
         "github": "#",
-        "link": "",
+        "link": "https://giftifyme.com",
         "category": "Web Application",
-        "image": "/assets/images/projects/gitfifyme.png",
+        "image": "/assets/images/projects/giftifyme.png",
         "gallery": ["/assets/images/projects/gitfifyme2.png","/assets/images/projects/gitfifyme.png"]
     }
     
