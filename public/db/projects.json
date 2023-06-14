@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "name": "Your Outreach Specialist",
+        "role": "Full-stack",
+        "date": "2021",
+        "description": "Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies. <br/> Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies.",
+        "tools": ["PHP", "JavaScript", "MySQL", "OOP"],
+        "features": ["EventLogging", "System user role and permission"],
+        "github": "#",
+        "link": "https://youroutreachspecialist.com",
+        "category": "Web Application",
+        "image": "/assets/images/projects/yos.png",
+        "gallery": ["/assets/images/projects/",""]
+    },
+    {
+        "id": "2",
+        "name": "Healthyish",
+        "role": "Full-stack",
+        "date": "2021",
+        "description": "Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies. <br/> Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies.",
+        "tools": ["PHP", "JavaScript", "MySQL", "OOP"],
+        "features": ["e-commerce", "SBlog", "payment system"],
+        "github": "#",
+        "link": "https://healthyishng.com",
+        "category": "Web Application",
+        "image": "/assets/images/projects/healthyish2.png",
+        "gallery": ["/assets/images/projects/healthyish.png","/assets/images/projects/healthyish2.png"]
+    },
+    {
+        "id": "3",
+        "name": "Giftifyme",
+        "role": "Full-stack",
+        "date": "2021",
+        "description": "Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies. <br/> Experienced full-stack developer with over 3 years of expertise in building scalable and user-friendly web applications for a range of companies.",
+        "tools": ["PHP", "JavaScript", "MySQL", "OOP"],
+        "features": ["EventLogging", "System user role and permission", "e-commerce", "payment system"],
+        "github": "#",
+        "link": "https://giftifyme.com",
+        "category": "Web Application",
+        "image": "/assets/images/projects/giftifyme.png",
+        "gallery": ["/assets/images/projects/gitfifyme2.png","/assets/images/projects/gitfifyme.png"]
+    }
+    
+]

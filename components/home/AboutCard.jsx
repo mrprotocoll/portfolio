@@ -19,10 +19,10 @@ const AboutCard = () => {
 
         // get profile data 
         (async () => {
-        const response = await fetch("/db/bio.json")
-        const responseData = await response.json()
+            const response = await fetch("/db/bio.json")
+            const responseData = await response.json()
 
-        setData(responseData)
+            setData(responseData)
         })()
     }, []);
 

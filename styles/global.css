@@ -24,6 +24,11 @@ body {
     line-height: 19.2px;
 }
 
+.logo {
+    width: 119px;
+    height: 50px;
+}
+
 .shadow-box {
     position: relative;
     border-radius: 30px;
@@ -755,7 +760,7 @@ ol {
     padding-top: 65px;
 }
 .projects-area .container > .section-heading {
-    display: none;
+    /* display: none; */
 }
 .projects-area .section-heading {
     justify-content: center;
@@ -768,10 +773,13 @@ ol {
 .projects-area .project-item .project-img {
     border-radius: 30px;
     margin-bottom: 13px;
+    width: 100%;
+    height: 228px;
 }
+
 .projects-area .project-item .project-img img {
     display: block;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .projects-area .project-item .project-info p {
     color: #BCBCBC;
