@@ -32,6 +32,7 @@ export default function ProjectDetails({params}) {
         console.log(projectData[0])
         setProject(projectData[0])
         setGallery(projectData[0].gallery)
+        setTools(projectData[0].tools)
     })()
 
   }, [])
@@ -41,7 +42,7 @@ export default function ProjectDetails({params}) {
     <section className="breadcrumb-area">
         <div className="container">
             <div className="breadcrumb-content" data-aos="fade-up">
-                <p>{project.name}</p>
+                <p>{project.title}</p>
                 <h1 className="section-heading mb-5 text-light">
                 <Image src="/assets/images/star-2.png" alt="Star" width={48} height={48} /> {project.name} <Image src="/assets/images/star-2.png" alt="Star" width={48} height={48} /></h1>
             </div>
@@ -57,18 +58,42 @@ export default function ProjectDetails({params}) {
             <div className="left-details">
               <Image src="/assets/images/icon3.png" width={37} height={76} alt="Icon" />
               <ul>
-                  <li>
-                      <p>Year</p>
-                      <h4>{project.date}</h4>
-                  </li>
-                  <li>
-                      <p>Services</p>
-                      <h4>{project.category}</h4>
-                  </li>
-                  <li>
-                    <p>Project</p>
-                    <h4>{project.category}</h4>
-                  </li>
+                <li>
+                  <p>Year</p>
+                  <h4>{project.date}</h4>
+                </li>
+
+                <li>
+                  <p>My Role</p>
+                  <h4>{project.role}</h4>
+                </li>
+
+                <li>
+                  <p>Live Link</p>
+                  <a href={project.link}>{project.name}</a>
+                </li>
+                {
+                  project.github && <li>
+                  <p>Github</p>
+                  <a href={project.github}>Link</a>
+                </li>
+                }
+                
+                <li>
+                  <p>Project</p>
+                  <h4>{project.category}</h4>
+                </li>
+
+                <li>
+                  <p>Tools</p>
+                  <div className="d-flex flex-wrap gap-2 mb-4">
+                    {
+                      tools.map((tool) => (
+                        <li className="mt-0"><button className="badge">{tool}</button></li>
+                      ))
+                    }
+                  </div>
+                </li>
               </ul>
             </div>
             <div className="right-details">
@@ -79,7 +104,7 @@ export default function ProjectDetails({params}) {
           </div>
         </div>
 
-        <div className="row mb-5 flex-wrap">
+        <div className="row my-5 flex-wrap">
           {
             gallery.map((image, i) => (
               <div key={i} className="col-md-6 mb-4" data-aos="zoom-in">
@@ -92,9 +117,11 @@ export default function ProjectDetails({params}) {
         </div>
       </div>
 
-      <div className="container d-flex align-items-center justify-content-center" data-aos="zoom-in">
-          <Link href="#" className="big-btn shadow-box">Next Project</Link>
-      </div>
+      {/* <div className="container d-flex align-items-center justify-content-center" data-aos="zoom-in">
+        <Link href={`/project/${params.id}`} className="big-btn shadow-box">Previous Project</Link>
+          <Link href={`/project/${params.id }`} className="big-btn shadow-box">Next Project</Link>
+         
+      </div> */}
     </section>
   </>
   )
