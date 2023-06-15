@@ -100,15 +100,15 @@ export default function ProjectDetails({params}) {
             </div>
             <div className="right-details">
               <h3>Description</h3>
-              {project.description}
+              <p>{project.description}</p>
 
-              <h3>Features:</h3>
+              <h3 className="my-4">Features:</h3>
               <ul>
                {
-                      features.map((feature) => (
-                        <li className="mt-0">{feature}</li>
-                      ))
-                    }
+                  features.map((feature) => (
+                    <li className="mt-0 mb-3 text-light">- {feature}</li>
+                  ))
+                }
               </ul>
             </div>
           </div>
