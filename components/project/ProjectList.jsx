@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 
-const ProjectLists = () => {
+const ProjectList = () => {
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
@@ -36,7 +36,7 @@ const ProjectLists = () => {
                             <Image src={project.image} alt={project.name} fill />
                             </div>
                             <div className="d-flex align-items-center justify-content-between">
-                                <CardInfo name={project.category} title={project.name}  link={`/project-details?id=${project.id}`} />
+                                <CardInfo name={project.category} title={project.name}  link={`/project/${project.id}`} />
                             </div>
                         </Card>
                     </div>
@@ -47,4 +47,4 @@ const ProjectLists = () => {
     )
 }
 
-export default ProjectLists;
+export default ProjectList;

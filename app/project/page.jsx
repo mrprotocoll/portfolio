@@ -1,4 +1,4 @@
-import ProjectLists from "@components/project/ProjectList"
+import ProjectList from "@components/project/ProjectList"
 import Image from "next/image"
 
 export const metadata = {
@@ -13,7 +13,7 @@ export default function Project() {
         <h1 class="section-heading mb-5 text-light">
           <Image src="/assets/images/star-2.png" alt="Star" width={48} height={48} /> My Projects <Image src="/assets/images/star-2.png" alt="Star" width={48} height={48} /></h1>
 
-        <ProjectLists />
+        <ProjectList />
 
       </div>
     </section>
