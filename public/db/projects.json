@@ -26,7 +26,7 @@
         "link": "https://healthyishng.com",
         "category": "Web Application",
         "image": "/assets/images/projects/healthyish2.png",
-        "gallery": ["/assets/images/projects/healthyish.png","/assets/images/projects/healthyish2.png"]
+        "gallery": ["/assets/images/projects/healthyish.png","/assets/images/projects/healthyish2.png","/assets/images/projects/healthyish1.png","/assets/images/projects/healthyish3.png","/assets/images/projects/healthyish4.png"]
     },
     
     {
@@ -41,7 +41,7 @@
         "link": "https://giftifyme.com",
         "category": "Web Application",
         "image": "/assets/images/projects/giftifyme.png",
-        "gallery": ["/assets/images/projects/gitfifyme2.png","/assets/images/projects/gitfifyme.png"]
+        "gallery": ["/assets/images/projects/giftifyme.png","/assets/images/projects/giftifyme1.png","/assets/images/projects/giftifyme2.png"]
     }
     
 ]
