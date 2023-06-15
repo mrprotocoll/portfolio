@@ -32,6 +32,16 @@ export default function Contact() {
                           <a href="mailto:mrprotocoll@yahoo.com" className="text-white">mrprotocoll@yahoo.com</a>
                         </div>
                     </li>
+
+                    <li className="d-flex align-items-center" data-aos="zoom-in">
+                        <div className="icon-box shadow-box">
+                            <i className="iconoir-pin-alt"></i>
+                        </div>
+                        <div className="right">
+                            <span>Location</span>
+                            <h4>Lagos, Nigeria</h4>
+                        </div>
+                    </li>
                 </ul>
 
                 <h3 data-aos="fade-up">Social Info</h3>
