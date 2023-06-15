@@ -17,6 +17,7 @@ export default function ProjectDetails({params}) {
   const [project, setProject] = useState({})
   const [gallery, setGallery] = useState([])
   const [tools, setTools] = useState([])
+  const [features, setFeatures] = useState([])
 
   useEffect(() => {
     Aos.init({
@@ -33,6 +34,7 @@ export default function ProjectDetails({params}) {
         setProject(projectData[0])
         setGallery(projectData[0].gallery)
         setTools(projectData[0].tools)
+        setFeatures(projectData[0].features)
     })()
 
   }, [])
@@ -98,8 +100,16 @@ export default function ProjectDetails({params}) {
             </div>
             <div className="right-details">
               <h3>Description</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit utsadi sfejdis aliquam, purus sit amet luctus venenatis, lectus magna sansit trandis fringilla urna, porttitor rhoncus dolor purus non enim dollors praesent tabasi elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam facilisis dignissim diam quis enim lobortis scelerisque.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit utsadi sfejdis aliquam, purus sit amet luctus venenatis, lectus magna sansit trandis fringilla urna, porttitor rhoncus dolor purus non enim dollors praesent tabasi elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam facilisis dignissim diam quis enim lobortis scelerisque iin fermentumisa dui faucibus in ornare.Lorem ipsum dolor sit.</p>
+              {project.description}
+
+              <h3>Features:</h3>
+              <ul>
+               {
+                      features.map((feature) => (
+                        <li className="mt-0">{feature}</li>
+                      ))
+                    }
+              </ul>
             </div>
           </div>
         </div>
