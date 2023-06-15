@@ -11,8 +11,9 @@
         "link": "https://youroutreachspecialist.com",
         "category": "Web Application",
         "image": "/assets/images/projects/yos.png",
-        "gallery": ["/assets/images/projects/",""]
+        "gallery": ["/assets/images/projects/yos.png","/assets/images/projects/yos2.png","/assets/images/projects/yos3.png", "/assets/images/projects/yos4.png","/assets/images/projects/yos5.png","/assets/images/projects/yos6.png"]
     },
+
     {
         "id": "2",
         "name": "Healthyish",
@@ -27,6 +28,7 @@
         "image": "/assets/images/projects/healthyish2.png",
         "gallery": ["/assets/images/projects/healthyish.png","/assets/images/projects/healthyish2.png"]
     },
+    
     {
         "id": "3",
         "name": "Giftifyme",
