@@ -8,8 +8,15 @@ import Link from "next/link"
 //   title: 'Projects'
 // }
 
+const style = {
+  width: 297,
+  height: 296,
+};
+
 export default function ProjectDetails({params}) {
   const [project, setProject] = useState({})
+  const [gallery, setGallery] = useState([])
+  const [tools, setTools] = useState([])
 
   useEffect(() => {
     Aos.init({
@@ -24,6 +31,7 @@ export default function ProjectDetails({params}) {
         const projectData = resData.filter(proj => proj.id == params.id)
         console.log(projectData[0])
         setProject(projectData[0])
+        setGallery(projectData[0].gallery)
     })()
 
   }, [])
@@ -51,19 +59,15 @@ export default function ProjectDetails({params}) {
               <ul>
                   <li>
                       <p>Year</p>
-                      <h4></h4>
-                  </li>
-                  <li>
-                      <p>Client</p>
-                      <h4>Raven Studio</h4>
+                      <h4>{project.date}</h4>
                   </li>
                   <li>
                       <p>Services</p>
-                      <h4>Web Design</h4>
+                      <h4>{project.category}</h4>
                   </li>
                   <li>
-                      <p>Project</p>
-                      <h4>Dynamic</h4>
+                    <p>Project</p>
+                    <h4>{project.category}</h4>
                   </li>
               </ul>
             </div>
@@ -75,22 +79,17 @@ export default function ProjectDetails({params}) {
           </div>
         </div>
 
-        <div className="row mb-24 flex-wrap">
-            <div className="col-md-6" data-aos="zoom-in">
-                <div className="project-details-3-img">
-                    <Image src={project.image} width={300} height={300} alt="Project" />
-                </div>
-            </div>
-            <div className="col-md-6" data-aos="zoom-in">
-                <div className="project-details-3-img">
-                    <Image src="/assets/images/project4.jpg" width={300} height={300} alt="Project" />
-                </div>
-            </div>
+        <div className="row mb-5 flex-wrap">
+          {
+            gallery.map((image, i) => (
+              <div key={i} className="col-md-6 mb-4" data-aos="zoom-in">
+                  <div className="project-details-3-img">
+                    <Image src={image} fill alt="Project" />
+                  </div>
+              </div>
+            ))
+          }
         </div>
-      </div>
-
-      <div className="project-details-img" data-aos="zoom-in">
-          <Image src="/assets/images/project-dt-1.jpg" width={300} height={300} alt="Project Details" />
       </div>
 
       <div className="container d-flex align-items-center justify-content-center" data-aos="zoom-in">

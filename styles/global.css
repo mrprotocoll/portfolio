@@ -898,9 +898,10 @@ ol {
     width: 100%;
     height: 100%;
     border-radius: 30px;
+    box-shadow: rgba(36, 169, 195, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
 }
 .project-details-wrap .project-details-3-img {
-    height: 480px;
+    height: 340px;
     position: relative;
     border-radius: 30px;
 }
