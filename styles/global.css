@@ -912,8 +912,8 @@ ol {
 .project-details-wrap .project-about-2 .left-details {
     position: relative;
     flex: none;
-    padding: 30px 54px;
-    width: 290px;
+    padding: 30px;
+    width: 310px;
 }
 .project-details-wrap .project-about-2 .left-details img {
     position: absolute;
