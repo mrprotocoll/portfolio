@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 
-const Projects = () => {
+const ProjectLists = () => {
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
@@ -47,4 +47,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default ProjectLists;
