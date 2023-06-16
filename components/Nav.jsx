@@ -26,9 +26,7 @@ const Nav = () => {
                 <Link href="/contact" className="theme-btn">Let's talk</Link>
 
                 <div className="show-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                 <Link href="/contact" className="theme-btn">Let's talk</Link>
                 </div>
             </div>
         </header>
