@@ -2,16 +2,19 @@
     {
         "message": "Completed the Ruby on Rails module at Microverse.",
         "link": "https://www.credential.net/f33de9df-8b44-400c-861a-9d80f7cab917",
-        "title": "CERTIFICATE"
+        "title": "CERTIFICATE",
+        "target": "_blank"
     },
     {
         "message": "LATEST WORK.",
         "link": "https://github.com/mrprotocoll/gitwit",
-        "title": "GITWIT"
+        "title": "GITWIT",
+        "target": "_blank"
     },
     {
         "message": "Let's work together.",
         "link": "/contact",
-        "title": "Get in Touch"
+        "title": "Get in Touch",
+        "target": "_self"
     }
 ]
