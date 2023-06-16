@@ -75,16 +75,6 @@ a {
     gap: 24px;
 }
 
-.bg-img {
-    opacity: 0.1 !important;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .h-full {
     height: 100%;
@@ -681,7 +671,7 @@ ol {
     will-change: transform;
     font-size: 12px;
 
-    animation: marquee 8s linear infinite;
+    animation: marquee 30s linear infinite;
 }
 
 .about-area .about-credentials-wrap .banner .marquee b {
@@ -1660,8 +1650,8 @@ ol {
 
 @keyframes marquee {
     
-    from { transform: translateX(0); }
-    to { transform: translateX(-65.3%); }
+    from { transform: translateX(80%); }
+    to { transform: translateX(-75.3%); }
 }
 
 @keyframes loader_running {
