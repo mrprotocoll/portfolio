@@ -1,17 +1,17 @@
 [
     {
-        "message": "LATEST WORK AND ",
-        "link": "/about",
-        "title": "FEATURED"
+        "message": "Completed the Ruby on Rails module at Microverse.",
+        "link": "https://www.credential.net/f33de9df-8b44-400c-861a-9d80f7cab917",
+        "title": "CERTIFICATE"
     },
     {
-        "message": "LATEST WORK AND ",
-        "link": "/about",
-        "title": "FEATURED"
+        "message": "LATEST WORK.",
+        "link": "https://github.com/mrprotocoll/gitwit",
+        "title": "GITWIT"
     },
     {
-        "message": "LATEST WORK AND ",
-        "link": "/about",
-        "title": "FEATURED"
+        "message": "Let's work together.",
+        "link": "/contact",
+        "title": "Get in Touch"
     }
 ]

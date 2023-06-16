@@ -25,7 +25,7 @@ const Marquee = () => {
                             {
                                 marquee.map((data) => (
                                     <span>
-                                        {data.message} 
+                                        {data.message} &nbsp; 
                                         <Link href={data.link}>{data.title}</Link>
                                         <Image src="/assets/images/star1.svg" alt="Star" width={30} height={10} className="bg-img" />
                                     </span>
