@@ -21,8 +21,8 @@ const Skills = () => {
             <Card classes="about-profile-box" link="/about">
                 <ul className="d-flex flex-wrap gap-2 mb-4">
                     {
-                        skills.map((skill) => (
-                            <li><button className="badge">{skill}</button></li>
+                        skills.map((skill, x) => (
+                            <li key={x}><button className="badge">{skill}</button></li>
                         ))
                     }
                 </ul>

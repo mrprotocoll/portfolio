@@ -8,7 +8,7 @@ const Contact = () => {
 
             <Image src="/assets/images/icon2.png" alt="Icon" className="star-icon" width={37} height={76} />
 
-            <h1>Let's <br />work <span>together.</span></h1>
+            <h1>Let&apos;s <br />work <span>together.</span></h1>
             <CardImageButton link="/contact" />
         </Card>
     )
