@@ -186,7 +186,7 @@ ol {
     height: 1px;
     background-color: var(--body-color);
     /* border-radius: 50%; */
-    animation: moveAround 3s linear infinite;
+    /* animation: moveAround 7s linear infinite; */
 }
 
 .badge:hover {
@@ -216,7 +216,7 @@ ol {
     height: 1px;
     background-color: var(--body-color);
     /* border-radius: 50%; */
-    animation: moveAround 3s linear infinite;
+    animation: moveAround 7s linear infinite;
 }
 
 .theme-btn:hover {
@@ -226,19 +226,19 @@ ol {
 
 @keyframes moveAround {
     0% {
-      transform: translateX(0) translateY(-100%);
+      transform: translateX(0) translateY(-60%);
     }
     25% {
       transform: translateX(100%) translateY(0);
     }
     50% {
-      transform: translateX(0) translateY(100%);
+      transform: translateX(0) translateY(60%);
     }
     75% {
-      transform: translateX(-100%) translateY(0);
+      transform: translateX(-60%) translateY(0);
     }
     100% {
-      transform: translateX(0) translateY(-100%);
+      transform: translateX(0) translateY(-60%);
     }
   }
 
@@ -2129,6 +2129,11 @@ ol {
 
     .header-area {
         padding: 5px 10px;
+        position: sticky;
+        top: 5px;
+        width: 100%;
+        background-color: var(--body-color);
+        z-index: 999999;
     }
 
     .credential-sidebar .img-box {
