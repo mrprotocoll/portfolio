@@ -18,7 +18,7 @@ export default function Contact() {
   },[])
   return (
     <section className="contact-area">
-    <div className="container">
+    <div className="">
         <div className="gx-row d-flex justify-content-between gap-24">
             <div className="contact-infos">
                 <h3 data-aos="fade-up">Contact Info</h3>

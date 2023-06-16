@@ -9,7 +9,7 @@ export default function Project() {
 
   return (
     <section className="projects-area">
-      <div className="container">
+      <div className="">
         <h1 className="section-heading mb-5 text-light">
           <Image src="/assets/images/star-2.png" alt="Star" width={48} height={48} /> My Projects <Image src="/assets/images/star-2.png" alt="Star" width={48} height={48} /></h1>
 

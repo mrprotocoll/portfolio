@@ -42,7 +42,7 @@ export default function ProjectDetails({params}) {
   return (
   <>
     <section className="breadcrumb-area">
-        <div className="container">
+        <div className="">
             <div className="breadcrumb-content" data-aos="fade-up">
                 <p>{project.title}</p>
                 <h1 className="section-heading mb-5 text-light">

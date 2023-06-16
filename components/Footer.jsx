@@ -1,14 +1,31 @@
 "use client"
 
-import { Twitter, GitHub, LinkedIn, Medium, HomeAlt, Home, User, ProjectCurve3D, Svg3DSelectPoint, MessageText } from 'iconoir-react'
+import { Twitter, GitHub, LinkedIn, Medium, Home, User, Svg3DSelectPoint, MessageText } from 'iconoir-react'
+import { useEffect, useState } from 'react';
 
 const Footer = () => {
+    const [isMobile, setIsMobile] = useState(false);
+    useEffect(() => {
+        // Check if the window width is below a specific threshold (e.g., 600px)
+        const handleResize = () => {
+          setIsMobile(window.innerWidth < 600);
+        };
+    
+        // Call the handleResize function on initial mount and window resize
+        window.addEventListener('resize', handleResize);
+        handleResize();
+    
+        // Cleanup the event listener on component unmount
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
     return (
         
-        <footer className="footer-area">
+        <footer className="footer-area position-md-fixed">
             <div className="">
-                <ul className="social-links d-flex justify-content-center">
-                    <li><a target="_blank" href="/"><Home />Home</a></li>
+                <ul className="social-links d-flex justify-content-between text-center">
+                    <li><a target="_blank" href="/" className='text-center'><Home /><span>Home</span></a></li>
                     <li><a target="_blank" href="/about"><User />About</a></li>
                     <li><a target="_blank" href="/project"><Svg3DSelectPoint />Projects</a></li>
                     

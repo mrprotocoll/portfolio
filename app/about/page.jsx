@@ -12,7 +12,7 @@ export default function About() {
 
   return (
     <section className="credential-area">
-      <div className="container">
+      <div className="container px-0">
         <div className="gx-row d-flex">
           <AboutCard />
           <div className="credential-content flex-1">
