@@ -1,20 +1,20 @@
 [
     {
-        "message": "Completed the Ruby on Rails module at Microverse.",
+        "message": "I Completed the Ruby on Rails module at Microverse <span>&#x1F60A;</span>.",
         "link": "https://www.credential.net/f33de9df-8b44-400c-861a-9d80f7cab917",
         "title": "CERTIFICATE",
         "target": "_blank"
     },
     {
-        "message": "LATEST WORK.",
+        "message": "MY LATEST WORK.",
         "link": "https://github.com/mrprotocoll/gitwit",
         "title": "GITWIT",
         "target": "_blank"
     },
     {
-        "message": "Let's work together.",
+        "message": "Want to have a coffee chat? <span>&#x1F603;</span>.",
         "link": "/contact",
-        "title": "Get in Touch",
+        "title": "COFFEE CHAT",
         "target": "_self"
     }
 ]
