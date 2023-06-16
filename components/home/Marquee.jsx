@@ -26,7 +26,7 @@ const Marquee = () => {
                                 marquee.map((data) => (
                                     <span>
                                         <span dangerouslySetInnerHTML={{ __html: data.message }} />
-                                        {/* {data.message} &nbsp;  */}
+                                        &nbsp;
                                         <Link href={data.link} target={data.target}>{data.title}</Link>
                                         <Image src="/assets/images/star1.svg" alt="Star" width={30} height={10} className="bg-img" />
                                     </span>

@@ -2,10 +2,10 @@
 
 import CardOverlay from "@components/CardOverlay"
 import Form from "@components/contact/Form"
-import { Twitter, GitHub, LinkedIn, Medium, Mail } from 'iconoir-react'
+import { Twitter, GitHub, LinkedIn, Medium, Mail, PinAlt } from 'iconoir-react'
 import Aos from "aos"
 import { useEffect } from "react"
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
@@ -35,7 +35,7 @@ export default function Contact() {
 
                     <li className="d-flex align-items-center" data-aos="zoom-in">
                         <div className="icon-box shadow-box">
-                            <i className="iconoir-pin-alt"></i>
+                            <PinAlt />
                         </div>
                         <div className="right">
                             <span>Location</span>
