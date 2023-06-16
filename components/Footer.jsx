@@ -4,9 +4,8 @@ import MobileFooter from './footer/MobileFooter';
 
 const Footer = () => {
     return (
-        
         <>
-            {isMobile ? <MobileFooter /> : <DesktopFooter />}
+            {isMobile ? <DesktopFooter /> : <MobileFooter />}
         </>
     )
 }
