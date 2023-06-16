@@ -26,6 +26,7 @@ const AboutCard = () => {
     }, []);
 
     return (
+        
         <div className="credential-sidebar-wrap" data-aos="zoom-in">
             <div className="credential-sidebar text-center">
                 <div className="shadow-box">
@@ -45,7 +46,7 @@ const AboutCard = () => {
                         <li><a target="_blank" href="https://medium.com/@mrprotocoll"><Medium /></a></li>
                     </ul>
 
-                    <Link href="/contact" className="theme-btn">Let's Work Together</Link>
+                    <Link href="/contact" className="theme-btn">Let&apos;s Work Together</Link>
                 </div>
             </div>
         </div>
