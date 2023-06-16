@@ -596,9 +596,10 @@ ol {
 .about-area {
     padding-top: 50px;
 }
+
 .about-area .about-me-box {
     position: relative;
-    padding: 50px 46px;
+    padding: 50px 30px;
     display: flex;
     align-items: flex-start;
     gap: 30px;
