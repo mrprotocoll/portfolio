@@ -20,9 +20,9 @@ const Footer = () => {
                        
                         <li><a target="_blank" href="https://medium.com/@mrprotocoll"><Medium /></a></li>
                     </ul>
-                    <p className="copyright">
+                    {/* <p className="copyright">
                         &copy; <span className="mrprotocoll">Mrprotocoll</span>. All rights reserved
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </footer>
