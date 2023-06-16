@@ -21,7 +21,9 @@ export default function About() {
             <Experience education />
             <Skills />
             <br/>
-            <Tools />
+            <div id="tools">
+              <Tools />
+            </div>
           </div>
         </div>
       </div>

@@ -45,7 +45,7 @@ const AboutCard = () => {
                         <li><a target="_blank" href="https://medium.com/@mrprotocoll"><Medium /></a></li>
                     </ul>
 
-                    <Link href="/contact" className="theme-btn">Contact Me</Link>
+                    <Link href="/contact" className="theme-btn">Let's Work Together</Link>
                 </div>
             </div>
         </div>

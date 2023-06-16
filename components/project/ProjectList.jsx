@@ -31,7 +31,7 @@ const ProjectList = () => {
             {
                 projects.map( project => (
                     <div data-aos="zoom-in" class="col-md-4">
-                        <Card classes="project-item">
+                        <Card classes="project-item" link={`/project/${project.id}`}>
                             <div class="project-img">
                             <Image src={project.image} alt={project.name} fill />
                             </div>
