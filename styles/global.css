@@ -980,7 +980,7 @@ ol {
     opacity: 0.25;
 }
 .credential-area .credential-sidebar .img-box {
-    background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
+    background: linear-gradient(90deg, var(--btn-color) -15%, #C2EBFF 58%, var(--btn-color) 97%);
     border-radius: 30px;
     margin-bottom: 40px;
 }

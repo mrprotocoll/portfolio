@@ -25,7 +25,8 @@ const Bio = () => {
     return (
         <div className="credential-about" data-aos="zoom-in">
             <h2>About Me</h2>
-            {data.about}
+            <div dangerouslySetInnerHTML={{ __html: data.about }} />
+            {/* <p>{data.about}</p> */}
         </div>
     )
 }
