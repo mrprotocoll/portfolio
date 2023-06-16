@@ -1652,8 +1652,8 @@ ol {
 
 @keyframes marquee {
     
-    from { transform: translateX(80%); }
-    to { transform: translateX(-75.3%); }
+    from { transform: translateX(30%); }
+    to { transform: translateX(-85.3%); }
 }
 
 @keyframes loader_running {
@@ -2116,6 +2116,15 @@ ol {
 
     .footer-area .footer-content .footer-menu {
         margin-bottom: 15px;
+    }
+
+    .footer-area-mobile {
+        margin-top: 40px;
+        padding-top: 0px !important;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--body-color);
     }
 
     .header-area {
