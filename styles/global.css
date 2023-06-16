@@ -195,9 +195,9 @@ ol {
 
 
 .theme-btn {
-    background: transparent;
+    background: var(--btn-color);
     border: 1px solid var(--btn-color) !important;
-    color: var(--btn-color);
+    color: #fff;
     display: inline-block;
     transition: .3s;
     border-radius: 50px;
@@ -1639,7 +1639,7 @@ ol {
     height: 50px; */
     /* padding: 10px; */
     text-align: center;
-    color: #a0a0a0;
+    color: #d9d9d9;
     border-radius: 50%;
     font-size: 17px;
     transition: .3s;
@@ -2016,7 +2016,8 @@ ol {
         justify-content: center !important;
     }
     .info-box.about-client-box .clients .client-item {
-        width: calc(50% - 12px);
+        /* width: calc(50% - 12px); */
+        width: 100%;
         flex: none;
     }
     .info-box.about-contact-box h1 {
@@ -2145,13 +2146,17 @@ ol {
         border-radius: 50px;
         font-size: 14px;
         font-weight: 500;
-        padding: 3px 20px;
+        padding: 8px 20px;
         position: relative;
     }
 
     .logo {
         width: 108px;
         height: 45px
+    }
+
+    .about_bio {
+        width: 100%;
     }
 }
 @media (max-width: 425px) {
