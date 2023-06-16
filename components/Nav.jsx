@@ -20,13 +20,13 @@ const Nav = () => {
                         <li><Link href="/project">Projects</Link></li>
                         <li><Link href="/contact">Contact</Link></li>
                     </ul>
-                    <Link href="/contact" className="theme-btn">Let's talk</Link>
+                    <Link href="/contact" className="theme-btn">Let&apos;s talk</Link>
                 </nav>
 
-                <Link href="/contact" className="theme-btn">Let's talk</Link>
+                <Link href="/contact" className="theme-btn">Let&apos;s talk</Link>
 
                 <div className="show-menu">
-                 <Link href="/contact" className="theme-btn">Let's talk</Link>
+                 <Link href="/contact" className="theme-btn">Let&apos;s talk</Link>
                 </div>
             </div>
         </header>

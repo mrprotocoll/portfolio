@@ -1,7 +1,4 @@
-"use client"
-
-import { Twitter, GitHub, LinkedIn, Medium, Home, User, Svg3DSelectPoint, MessageText } from 'iconoir-react'
-import { useEffect, useState } from 'react';
+import { Twitter, GitHub, LinkedIn, Medium } from 'iconoir-react'
 
 const DesktopFooter = () => {
     return (

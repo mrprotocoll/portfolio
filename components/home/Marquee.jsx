@@ -23,8 +23,8 @@ const Marquee = () => {
                     <div>
                         <span>
                             {
-                                marquee.map((data) => (
-                                    <span>
+                                marquee.map((data, x) => (
+                                    <span key={x}>
                                         <span dangerouslySetInnerHTML={{ __html: data.message }} />
                                         &nbsp;
                                         <Link href={data.link} target={data.target}>{data.title}</Link>

@@ -24,8 +24,8 @@ const Tools = () => {
             <Card classes="about-profile-box" link="/about#tools">
                 <div className="inner-profile-icons shadow-box flex-wrap">
                     {
-                        tools.map((tool) => (
-                            <Link href={tool.link}>
+                        tools.map((tool, x) => (
+                            <Link key={x} href={tool.link}>
                                 <Image src={tool.image} alt={tool.name} width={40} height={40} />
                             </Link>
                         ))

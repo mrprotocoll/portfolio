@@ -90,8 +90,8 @@ export default function ProjectDetails({params}) {
                   <p>Tools</p>
                   <div className="d-flex flex-wrap gap-2 mb-4">
                     {
-                      tools.map((tool) => (
-                        <li className="mt-0"><button className="badge">{tool}</button></li>
+                      tools.map((tool, x) => (
+                        <li key={x} className="mt-0"><button className="badge">{tool}</button></li>
                       ))
                     }
                   </div>
@@ -105,8 +105,8 @@ export default function ProjectDetails({params}) {
               <h3 className="my-4">Features:</h3>
               <ul>
                {
-                  features.map((feature) => (
-                    <li className="mt-0 mb-3 text-light">- {feature}</li>
+                  features.map((feature, x) => (
+                    <li key={x} className="mt-0 mb-3 text-light">- {feature}</li>
                   ))
                 }
               </ul>
