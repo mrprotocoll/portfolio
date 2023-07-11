@@ -4,6 +4,7 @@
     --btn-color: rgb(24, 154, 180);
     --body-color: rgb(15, 22, 36);
     --card-color: #010916;
+    --heading-text-color: #dbdbdb;
 }
 *,*::before,*::after {
     margin: 0;
@@ -87,7 +88,7 @@ a {
 }
 
 .infos h4 {
-    /* color: #BCBCBC;
+    /* color: var(--heading-text-color);
     font-size: 12px;
     opacity: 0.5;
     margin-bottom: 6px; */
@@ -345,7 +346,7 @@ ol {
     margin: auto auto 16px auto;
 }
 .info-box .infos h4 {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     font-size: 12px;
     opacity: 0.5;
     margin-bottom: 6px;
@@ -502,7 +503,7 @@ ol {
     padding-top: 77px;
 }
 .breadcrumb-area .breadcrumb-content p {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.7;
     margin-bottom: 24px;
 }
@@ -552,7 +553,7 @@ ol {
 }
 .header-area .navbar .menu li a {
     font-size: 16px;
-    color: #989898;
+    color: #bbbbbb;
     transition: .3s;
     display: block;
     padding: 26px 0px;
@@ -600,7 +601,7 @@ ol {
 
 .about-area .about-me-box {
     position: relative;
-    padding: 50px 30px;
+    padding: 45px 30px;
     display: flex;
     align-items: flex-start;
     gap: 30px;
@@ -622,11 +623,11 @@ ol {
 }
 
 .about-area .about-me-box .infos {
-    padding-top: 10px;
+    padding-top: 0px;
     position: initial;
 }
 .about-area .about-me-box .infos h4 {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.7;
     font-size: 14px;
     letter-spacing: 0.3px;
@@ -740,7 +741,7 @@ ol {
     margin-top: 32px;
 }
 .about-area .about-edc-exp ul li .date {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.6;
     font-size: 16px;
     font-weight: 500;
@@ -753,7 +754,7 @@ ol {
     margin-bottom: 7px;
 }
 .about-area .about-edc-exp ul li .type {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     font-size: 14px;
     opacity: 0.6;
     font-weight: 400;
@@ -791,7 +792,7 @@ ol {
     border-radius: 10px;
 }
 .projects-area .project-item .project-info p {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.5;
     font-size: 14px;
     text-transform: uppercase;
@@ -871,7 +872,7 @@ ol {
     margin-bottom: 0;
 }
 .project-details-wrap .project-infos-wrap .project-details-info h3 {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.5;
     font-size: 18px;
     text-transform: uppercase;
@@ -916,7 +917,7 @@ ol {
     margin-top: 27px;
 }
 .project-details-wrap .project-about-2 .left-details ul li p {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     font-size: 18px;
     opacity: 0.6;
     margin-bottom: 10px;
@@ -929,7 +930,7 @@ ol {
 }
 .project-details-wrap .project-about-2 .right-details h3 {
     font-size: 18px;
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.5;
     margin-bottom: 17px;
 }
@@ -991,7 +992,7 @@ ol {
     border-radius: 30px;
 }
 .credential-area .credential-sidebar p {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.5;
     font-size: 16px;
     margin-bottom: 34px;
@@ -1059,7 +1060,7 @@ ol {
     margin-top: 58px;
 }
 .credential-area .credential-edc-exp .credential-edc-exp-item h4 {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.6;
     font-size: 16px;
     font-weight: 500;
@@ -1070,7 +1071,7 @@ ol {
 }
 .credential-area .credential-edc-exp .credential-edc-exp-item h5 {
     font-size: 14px;
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.6;
     font-weight: 400;
 }
@@ -1094,7 +1095,7 @@ ol {
     width: 50%;
 }
 .credential-area .skills-wrap .skill-item .percent {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.6;
     display: block;
     font-weight: 500;
@@ -1107,7 +1108,7 @@ ol {
     margin-bottom: 4px;
 }
 .credential-area .skills-wrap .skill-item p {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.6;
     font-size: 14px;
     margin: 0;
@@ -1173,7 +1174,7 @@ ol {
     padding: 24px 47px 59px 30px;
 }
 .service-area .service-cmarqueeontent-wrap .service-content-inner .service-item h3 {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     font-size: 15px;
     font-weight: 500;
     opacity: 0.56;
@@ -1252,7 +1253,7 @@ ol {
     opacity: 0.8;
 }
 .blog-sidebar .blog-sidebar-inner .blog-sidebar-widget h3 {
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     opacity: 0.5;
     font-size: 18px;
     text-transform: uppercase;
@@ -1536,7 +1537,7 @@ ol {
 }
 .contact-area .contact-infos .contact-details li .right span {
     display: block;
-    color: #BCBCBC;
+    color: var(--heading-text-color);
     font-size: 14px;
     opacity: 0.5;
     text-transform: uppercase;
@@ -1610,7 +1611,7 @@ ol {
     flex-wrap: wrap;
 }
 .footer-area .footer-content .footer-menu li a {
-    color: #676767;
+    color: #bbbbbb;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.1px;

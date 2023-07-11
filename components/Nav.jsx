@@ -17,7 +17,7 @@ const Nav = () => {
                 <nav className="navbar">
                     <ul className="menu">
                         <li><Link href="/about">About Me</Link></li>
-                        <li><Link href="/project">My Projects</Link></li>
+                        <li><Link href="/project">My Works</Link></li>
                         <li><Link href="/contact">Contact Me</Link></li>
                     </ul>
                     <Link href="/contact" className="theme-btn">Let&apos;s talk</Link>

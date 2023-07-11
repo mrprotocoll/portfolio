@@ -29,7 +29,7 @@ const AboutCard = () => {
 
     return (
         <div className="about-me-box shadow-box">
-            <CardOverlay link="/about"/>
+            <CardOverlay />
             <div className="img-box position-relative">
                 <Image src={data.image} fill alt="About Me" />
             </div>

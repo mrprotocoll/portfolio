@@ -1,27 +1,32 @@
-"use client"
-
 import Card from "@components/card/Card";
 import CardInfo from "@components/card/CardInfo";
-import { useEffect, useState } from "react";
 
 const Skills = () => {
-    const [skills, setSkills] = useState([])
+    const data = [ 
+        [
+        "Software Development","Front-end Development", "Git-flow","Back-end Development","Datastructure & Algorithm", "OOP","Database Design", "Wordpress", "Test-driven Development","System Testing", "API Documentation","UML", "RESTful API", "Jest", "RSpec","System Design"
+        ],
+        [
+            "Cross-cultural Communication",  "Teamwork", "Remote Pair-programming","Agile Methodology"
+        ],
+    ];
 
-    useEffect(
-        () => {
-            (async () => {
-                const res = await fetch("/db/skills.json")
-                const resData = await res.json()
-                setSkills(resData)
-            })()
-        }, []
-    )
     return (
         <div data-aos="zoom-in" className="">
             <Card classes="about-profile-box" link="/about">
+                <h6>Technical Skills</h6>
                 <ul className="d-flex flex-wrap gap-2 mb-4">
                     {
-                        skills.map((skill, x) => (
+                        data[0].map((skill, x) => (
+                            <li key={x}><button className="badge">{skill}</button></li>
+                        ))
+                    }
+                </ul>
+
+                <h6>Professional Skills</h6>
+                <ul className="d-flex flex-wrap gap-2 mb-4">
+                    {
+                        data[1].map((skill, x) => (
                             <li key={x}><button className="badge">{skill}</button></li>
                         ))
                     }
