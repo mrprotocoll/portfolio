@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from 'react';
-import DesktopFooter from './footer/DesktopFooter';
-import MobileFooter from './footer/MobileFooter';
+import DesktopFooter from './DesktopFooter';
+import MobileFooter from './MobileFooter';
 
 const Footer = () => {
     const [isMobile, setIsMobile] = useState(false);

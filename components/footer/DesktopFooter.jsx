@@ -1,4 +1,4 @@
-import { Twitter, GitHub, LinkedIn, Medium } from 'iconoir-react'
+import SocialLinks from "@components/generic/SocialLinks"
 
 const DesktopFooter = () => {
     return (
@@ -10,13 +10,7 @@ const DesktopFooter = () => {
                         <li><a href="/project">Works</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
-                    <ul className="social-links d-flex justify-content-center">
-                        <li><a target="_blank" href="https://www.linkedin.com/in/mrprotocoll"><LinkedIn /></a></li>
-                        <li><a target="_blank" href="https://twitter.com/dprotocoll"><Twitter /></a></li>
-                        <li><a target="_blank" href="https://github.com/mrprotocoll"><GitHub /></a></li>
-                       
-                        <li><a target="_blank" href="https://medium.com/@mrprotocoll"><Medium /></a></li>
-                    </ul>
+                    <SocialLinks />
                     {/* <p className="copyright">
                         &copy; <span className="mrprotocoll">Mrprotocoll</span>. All rights reserved
                     </p> */}
