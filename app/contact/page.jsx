@@ -1,6 +1,6 @@
 "use client"
 
-import CardOverlay from "@components/CardOverlay"
+import CardOverlay from "@components/card/CardOverlay"
 import Form from "@components/contact/Form"
 import { Twitter, GitHub, LinkedIn, Medium, Mail, PinAlt } from 'iconoir-react'
 import Aos from "aos"

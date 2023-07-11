@@ -1,5 +1,5 @@
-import CardInfo from "@components/CardInfo"
-import Card from "@components/Card"
+import CardInfo from "@components/card/CardInfo"
+import Card from "@components/card/Card"
 
 const Credential = () => {
     const year = parseInt((new Date()).getFullYear()) - 2020 

@@ -1,4 +1,4 @@
-import CardImageButton from "@components/CardImageButton";
+import CardImageButton from "@components/card/CardImageButton";
 
 const CardInfo = ({ name, title, link = "#", subtitle = null, classes = "" }) => {
     return (
@@ -8,8 +8,7 @@ const CardInfo = ({ name, title, link = "#", subtitle = null, classes = "" }) =>
                 <h1>{title}</h1>
                 { subtitle && <p>{ subtitle }</p> }
             </div>
-            
-            <CardImageButton link={link} />
+            { link && <CardImageButton link={link} />}
         </>
         
     )

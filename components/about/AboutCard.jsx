@@ -3,7 +3,7 @@
 import Image from "next/image"
 import Aos from "aos"
 import { useEffect, useState } from "react";
-import CardOverlay from "@components/CardOverlay";
+import CardOverlay from "@components/card/CardOverlay";
 import Link from "next/link";
 import { Twitter, GitHub, LinkedIn, Medium } from 'iconoir-react'
 const AboutCard = () => {

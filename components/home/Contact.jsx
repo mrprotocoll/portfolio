@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Card from "@components/Card"
-import CardImageButton from "@components/CardImageButton"
+import Card from "@components/card/Card"
+import CardImageButton from "@components/card/CardImageButton"
 
 const Contact = () => {
     return (

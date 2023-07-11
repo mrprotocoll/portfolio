@@ -2,8 +2,8 @@
 
 import Image from "next/image"
 import Aos from "aos"
-import CardOverlay from "@components/CardOverlay"
-import CardInfo from "@components/CardInfo"
+import CardOverlay from "@components/card/CardOverlay"
+import CardInfo from "@components/card/CardInfo"
 import { useEffect, useState } from "react"
 
 
@@ -33,7 +33,7 @@ const AboutCard = () => {
                 <Image src={data.image} fill alt="About Me" />
             </div>
             <div className="about_bio">
-                <CardInfo name={data.title} title={data.name} subtitle={data.bio} link="/about" />
+                <CardInfo name={data.title} title={data.name} subtitle={data.bio} link={null} />
             </div>
         </div>
     )

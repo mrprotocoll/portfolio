@@ -1,8 +1,8 @@
 "use client"
 
 import Aos from "aos"
-import Card from "@components/Card";
-import CardInfo from "@components/CardInfo";
+import Card from "@components/card/Card";
+import CardInfo from "@components/card/CardInfo";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
