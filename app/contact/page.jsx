@@ -7,6 +7,7 @@ import Aos from "aos"
 import { useEffect } from "react"
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import SocialLinks from "@components/generic/SocialLinks"
 
 export default function Contact() {
   useEffect(() => {
@@ -45,22 +46,17 @@ export default function Contact() {
                 </ul>
 
                 <h3 data-aos="fade-up">Social Info</h3>
-                <ul className="social-links d-flex align-center" data-aos="zoom-in">
-                      <li><a className="shadow-box" target="_blank" href="https://www.linkedin.com/in/mrprotocoll"><LinkedIn /></a></li>
-                        <li><a  className="shadow-box"target="_blank" href="https://twitter.com/dprotocoll"><Twitter /></a></li>
-                        <li><a className="shadow-box" target="_blank" href="https://github.com/mrprotocoll"><GitHub /></a></li>
-                       
-                        <li><a className="shadow-box" target="_blank" href="https://medium.com/@mrprotocoll"><Medium /></a></li>
-                </ul>
+
+                <SocialLinks />
             </div>
 
             <div data-aos="zoom-in" className="contact-form">
-                <div className="shadow-box">
-                  <CardOverlay />
-                  <img src="assets/images/icon3.png" alt="Icon" />
-                  <h1 className="text-light">Let’s work <span>together.</span></h1>
-                  <Form />
-                </div>
+              <div className="shadow-box">
+                <CardOverlay />
+                <img src="assets/images/icon3.png" alt="Icon" />
+                <h1 className="text-light">Let’s work <span>together.</span></h1>
+                <Form />
+              </div>
             </div>
             
         </div>

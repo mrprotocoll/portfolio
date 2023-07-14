@@ -118,9 +118,9 @@ export default function ProjectDetails({params}) {
           {
             gallery.map((image, i) => (
               <div key={i} className="col-md-6 mb-4" data-aos="zoom-in">
-                  <div className="project-details-3-img">
-                    <Image src={image} fill alt="Project" />
-                  </div>
+                <div className="project-details-3-img">
+                  <Image src={image} fill alt="Project" />
+                </div>
               </div>
             ))
           }

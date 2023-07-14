@@ -5,7 +5,8 @@ import Aos from "aos"
 import { useEffect, useState } from "react";
 import CardOverlay from "@components/card/CardOverlay";
 import Link from "next/link";
-import { Twitter, GitHub, LinkedIn, Medium } from 'iconoir-react'
+import { Twitter, GitHub, LinkedIn, Medium, SendMail } from 'iconoir-react'
+import SocialLinks from "@components/generic/SocialLinks";
 const AboutCard = () => {
     const [data, setData] = useState({})
 
@@ -40,6 +41,7 @@ const AboutCard = () => {
                     <p>{data.handle}</p>
 
                     <ul className="social-links d-flex justify-content-center">
+                        <li><a target="_blank" href="https://mail.google.com/mail/?view=cm&to=lekanvgbg@gmail.com"><SendMail/></a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/mrprotocoll"><LinkedIn /></a></li>
                         <li><a target="_blank" href="https://twitter.com/dprotocoll"><Twitter /></a></li>
                         <li><a target="_blank" href="https://github.com/mrprotocoll"><GitHub /></a></li>
