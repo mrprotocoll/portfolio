@@ -72,12 +72,12 @@ export default function ProjectDetails({params}) {
 
                 <li>
                   <p>Live Link</p>
-                  <a href={project.link}>{project.name}</a>
+                  <a target="_blank" href={project.link}>{project.name}</a>
                 </li>
                 {
                   project.github && <li>
                   <p>Github</p>
-                  <a href={project.github}>Link</a>
+                  <a target="_blank" href={project.github}>Link</a>
                 </li>
                 }
                 
