@@ -4,7 +4,7 @@ import CardInfo from "@components/card/CardInfo";
 const Skills = () => {
     const data = [ 
         [
-        "Software Development","Front-end Development", "Git-flow","Back-end Development","Datastructure & Algorithm", "OOP","Database Design", "Wordpress", "Test-driven Development","System Testing", "API Documentation","UML", "RESTful API", "Jest", "RSpec","System Design"
+        "Full-stack Development", "Datastructure & Algorithm", "OOP","Database Design", "Wordpress", "Test-driven Development","System Testing", "API Documentation","UML","Git-flow", "RESTful API", "Jest", "RSpec","System Design"
         ],
         [
             "Cross-cultural Communication",  "Teamwork", "Remote Pair-programming","Agile Methodology"

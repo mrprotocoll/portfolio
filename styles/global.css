@@ -1,7 +1,7 @@
 :root {
     --primary_color: rgb(24, 154, 180);
     --dark: #323232;
-    --btn-color: rgb(24, 154, 180);
+    --btn-color: #189ab4;
     --body-color: rgb(15, 22, 36);
     --card-color: #010916;
     --heading-text-color: #dbdbdb;
@@ -1644,17 +1644,26 @@ ol {
     /* margin-bottom: 20px; */
 }
 .footer-area .social-links li a {
-    /* width: 45px;
-    height: 50px; */
-    /* padding: 10px; */
     text-align: center;
     color: #d9d9d9;
     border-radius: 50%;
     font-size: 17px;
     transition: .3s;
 }
+
 .footer-area .social-links li a:hover {
-    background: #ffffff;
+    background: var(--btn-color);
+    padding: 7px;
+    color: #0F0F0F;
+}
+
+.social-links li a {
+    transition: .3s;
+}
+
+.social-links li a:hover {
+    background: var(--btn-color);
+    padding: 7px;
     color: #0F0F0F;
 }
 
