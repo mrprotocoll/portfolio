@@ -5,7 +5,8 @@ import Link from "next/link";
 const Nav = () => {
     return (
         <header className="header-area">
-            <div className="gx-row d-flex align-items-center justify-content-between">
+            <div className="container">
+            <div className="gx-row nav d-flex align-items-center justify-content-between">
                 <Link href="/" className="flex gap-2 flex-center position-relative logo">
                     <Image 
                     src="/assets/images/logo.png" 
@@ -28,6 +29,7 @@ const Nav = () => {
                 <div className="show-menu">
                  <Link href="/contact" className="theme-btn">Let&apos;s talk</Link>
                 </div>
+            </div>
             </div>
         </header>
     );

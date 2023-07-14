@@ -22,9 +22,9 @@ const Footer = () => {
       };
     }, []);
     return (
-        <>
+        <div className="container">
             {isMobile ? <MobileFooter /> : <DesktopFooter />}
-        </>
+        </div>
     )
 }
 

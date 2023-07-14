@@ -16,11 +16,11 @@ export default function Home() {
   return (
     <section className="about-area">
         <div className="row">
-          <div className="col-md-6" data-aos="zoom-in">
+          <div className="col-lg-6" data-aos="zoom-in">
             <AboutCard />
           </div>
 
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="about-credentials-wrap">
               <Marquee />
               <div className="gx-row d-flex gap-24">

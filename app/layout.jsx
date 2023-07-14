@@ -20,9 +20,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="container wrapper">
+        <main className="wrapper">
           <Nav />
-          {children}
+          <div className="container">
+            {children}
+          </div>
           <Footer />
         </main>
       </body>
