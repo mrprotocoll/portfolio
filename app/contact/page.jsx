@@ -8,6 +8,7 @@ import { useEffect } from "react"
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SocialLinks from "@components/generic/SocialLinks"
+import Image from "next/image"
 
 export default function Contact() {
   useEffect(() => {
@@ -53,7 +54,7 @@ export default function Contact() {
             <div data-aos="zoom-in" className="contact-form">
               <div className="shadow-box">
                 <CardOverlay />
-                <img src="assets/images/icon3.png" alt="Icon" />
+                <Image src="/assets/images/icon3.png" width={37} height={97} alt="Icon" />
                 <h1 className="text-light">Let’s work <span>together.</span></h1>
                 <Form />
               </div>

@@ -37,7 +37,7 @@ export default function ProjectDetails({params}) {
         setFeatures(projectData[0].features)
     })()
 
-  }, [])
+  }, [params.id])
 
   return (
   <>

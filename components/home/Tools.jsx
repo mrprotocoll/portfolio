@@ -25,8 +25,8 @@ const Tools = () => {
                 <div className="inner-profile-icons shadow-box flex-wrap">
                     {
                         tools.map((tool, x) => (
-                            <div className="d-block text-center">
-                                <Link key={x} href={tool.link}>
+                            <div key={x} className="d-block text-center">
+                                <Link href={tool.link}>
                                     <Image src={tool.image} alt={tool.name} width={40} height={40} />
                                 </Link>
                                 <p className="pt-2">{tool.title}</p>
