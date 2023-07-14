@@ -1,6 +1,48 @@
 [
     {
         "id": "1",
+        "name": "TourXtra",
+        "role": "Full-stack",
+        "date": "2021",
+        "description": "TourXtra is a tour reservation web app designed to simplify the process of booking and managing tour reservations. It provides users with a seamless experience to browse available tours, select desired tour packages, specify booking details, and receive confirmation for their reservations. The application is developed using JavaScript, React, Redux, Ruby on Rails, and PostgreSQL.",
+        "tools": [ "JavaScript", "React", "Redux", "Ruby on Rails", "PostgrSQL", "Tailwind"],
+        "features": ["User Registration and Authentication using JWT","Tour Selection and Booking: users can select and book their desired tour packages","Reservation: users can see all their reservations"],
+        "github": "https://github.com/mrprotocoll/tourXtra",
+        "link": "https://tourxtra.onrender.com",
+        "category": "Web Application",
+        "image": "/assets/images/projects/yos.png",
+        "gallery": ["/assets/images/projects/yos.png","/assets/images/projects/yos2.png","/assets/images/projects/yos3.png", "/assets/images/projects/yos4.png","/assets/images/projects/yos5.png","/assets/images/projects/yos6.png"]
+    },
+    {
+        "id": "2",
+        "name": "Recipe App",
+        "role": "Full-stack",
+        "date": "2023",
+        "description": "The Recipe app is a user-friendly web application designed to help users keep track of their recipes and ingredients. It provides a platform for creating and saving recipes, managing ingredient lists, tracking available ingredients, and generating a shopping list. The application is built using Ruby on Rails and utilizes Bootstrap for styling.",
+        "tools": ["Ruby on Rails", "PostgreSQL", "Bootstrap", "devise"],
+        "features": ["User Registration and Authentication using Devise","Shopping List Generation","Recipe Management","Ingredient Tracking"],
+        "github": "https://github.com/microverse-journey/recipe_app",
+        "link": "https://recipe-app-ydj5.onrender.com",
+        "category": "Web Application",
+        "image": "/assets/images/projects/recipe-3.png",
+        "gallery": ["/assets/images/projects/recipe-1.png","/assets/images/projects/recipe-2.png","/assets/images/projects/recipe-3.png", "/assets/images/projects/recipe-4.png","/assets/images/projects/recipe-5.png","/assets/images/projects/recipe-6.png"]
+    },
+    {
+        "id": "3",
+        "name": "Budget App",
+        "role": "Full-stack",
+        "date": "2023",
+        "description": "The MP-Budget app is a mobile web application designed to help users manage their budget effectively. It provides a platform for tracking transactions associated with different categories, enabling users to monitor their spending and allocate their funds accordingly. The app is accessible via mobile devices and focuses on providing a user-friendly experience.",
+        "tools": ["Ruby on Rails", "PostgreSQL", "Bootstrap", "devise"],
+        "features": ["User Registration and Authentication using Devise","Budget Overview: it provides an overview of the user's budget, displaying the total amount spent and allocated across different categories.","Category Management"],
+        "github": "https://github.com/microverse-journey/mp-budget",
+        "link": "https://mp-budget.onrender.com/",
+        "category": "Web Application",
+        "image": "/assets/images/projects/budget-2.png",
+        "gallery": ["/assets/images/projects/budget-1.png","/assets/images/projects/budget-2.png","/assets/images/projects/budget-3.png", "/assets/images/projects/budget-4.png","/assets/images/projects/budget-11.png","/assets/images/projects/budget-6.png"]
+    },
+    {
+        "id": "4",
         "name": "Your Outreach Specialist",
         "role": "Full-stack",
         "date": "2021",
@@ -12,35 +54,5 @@
         "category": "Web Application",
         "image": "/assets/images/projects/yos.png",
         "gallery": ["/assets/images/projects/yos.png","/assets/images/projects/yos2.png","/assets/images/projects/yos3.png", "/assets/images/projects/yos4.png","/assets/images/projects/yos5.png","/assets/images/projects/yos6.png"]
-    },
-
-    {
-        "id": "2",
-        "name": "Healthyish",
-        "role": "Full-stack",
-        "date": "2021",
-        "description": "I developed Healthyish using PHP and Javascript. It is a powerful web application that empowers individuals to prioritize their health and well-being. By seamlessly integrating appointment booking, personalized consultations, and e-commerce capabilities, it offers a comprehensive solution for those seeking professional guidance and quality health products.",
-        "tools": ["PHP", "JavaScript", "MySQL", "OOP", "Bootstrap", "jQuery"],
-        "features": ["e-commerce", "Blog","Vlog", "Appointment Booking:","payment system"],
-        "github": "#",
-        "link": "https://healthyishng.com",
-        "category": "Web Application",
-        "image": "/assets/images/projects/healthyish2.png",
-        "gallery": ["/assets/images/projects/healthyish.png","/assets/images/projects/healthyish2.png","/assets/images/projects/healthyish1.png","/assets/images/projects/healthyish3.png","/assets/images/projects/healthyish4.png"]
-    },
-    
-    {
-        "id": "3",
-        "name": "Giftifyme",
-        "role": "Full-stack",
-        "date": "2021",
-        "description": "GiftifyMe is a remarkable web application that I had the opportunity to develop, and I'm excited to share the details with you. It is a dynamic web application that revolutionizes the way people send gifts to their loved ones. With a vast selection of gift cards and other thoughtful presents from numerous vendors, GiftifyMe ensures a delightful and hassle-free gifting experience for customers.",
-        "tools": ["PHP", "JavaScript", "MySQL", "OOP", "Bootstrap", "jQuery"],
-        "features": ["Secure and Reliable Transaction Management","Collaborative Vendor Network","Streamlined Gift Selection Process:","Personalized messages: allows users to leave a personal touch on the gift card","Event Logging", "System user role and permission", "e-commerce", "Secure payment system"],
-        "github": "#",
-        "link": "https://giftifyme.com",
-        "category": "Web Application",
-        "image": "/assets/images/projects/giftifyme.png",
-        "gallery": ["/assets/images/projects/giftifyme.png","/assets/images/projects/giftifyme1.png","/assets/images/projects/giftifyme2.png"]
     }
 ]
