@@ -3,7 +3,7 @@ import SocialLinks from "@components/generic/SocialLinks"
 const DesktopFooter = () => {
     return (
         
-        <footer className="footer-area">
+        <footer className="footer-area container">
                 <div className="footer-content align-items-center justify-content-between d-flex text-center">
                     <ul className="footer-menu">
                         <li><a href="/about">About</a></li>

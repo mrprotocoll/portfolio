@@ -3,7 +3,7 @@ import { Home, User, Svg3DSelectPoint, MessageText } from 'iconoir-react'
 const MobileFooter = () => {
     return (
         
-        <footer className="footer-area footer-area-mobile mb-2">
+        <footer className="footer-area footer-area-mobile mb-2 container">
             <div className="">
                 <ul className="social-links d-flex justify-content-between text-center">
                     <li><a href="/" className='text-center'><Home /><br/>Home</a></li>

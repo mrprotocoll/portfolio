@@ -2,7 +2,7 @@
 
 import CardOverlay from "@components/card/CardOverlay"
 import Form from "@components/contact/Form"
-import { Twitter, GitHub, LinkedIn, Medium, Mail, PinAlt } from 'iconoir-react'
+import { Mail, PinAlt } from 'iconoir-react'
 import Aos from "aos"
 import { useEffect } from "react"
 import { ToastContainer } from 'react-toastify';
@@ -30,7 +30,7 @@ export default function Contact() {
                         </div>
                         <div className="right">
                           <span>MAIL me</span>
-                          <a href="mailto:mrprotocoll@yahoo.com" className="text-white">mrprotocoll@yahoo.com</a>
+                          <a target="_blank" href="https://mail.google.com/mail/?view=cm&to=lekanvgbg@gmail.com" className="text-white">lekanvgbg@gmail</a>
                         </div>
                     </li>
 
