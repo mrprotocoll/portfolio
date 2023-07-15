@@ -2,8 +2,10 @@
     --primary_color: rgb(24, 154, 180);
     --dark: #323232;
     --btn-color: #189ab4;
-    --body-color: rgb(15, 22, 36);
-    --card-color: #010916;
+    /* --body-color: rgb(15, 22, 36); */
+    --body-color: rgb(14, 14, 14);
+    --card-color: #0F0F0F;
+    /* --card-color: #010916; */
     --heading-text-color: #dbdbdb;
 }
 *,*::before,*::after {
@@ -19,10 +21,14 @@ body {
     color: #b4b4b4;
     /* height: 100vh; */
     background: var(--body-color);
-    /* background: rgb(14,14,14);
-    background: linear-gradient(0deg, rgba(39,40,45,1) 0%, rgba(14,14,14,1) 100%); */
+    /* background: rgb(14,14,14); */
+    /* background: linear-gradient(0deg, rgba(39,40,45,1) 0%, rgba(14,14,14,1) 100%); */
     
     line-height: 19.2px;
+}
+
+.black-and-white {
+    filter: grayscale(100%);
 }
 
 .logo {
@@ -268,7 +274,7 @@ ol {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
+    /* background: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05)); */
     border-radius: 30px;
     opacity: 0.25;
 }
@@ -520,7 +526,7 @@ ol {
 
 /* # Header */
 .header-area{
-    background-color: var(--body-color);
+    background-color: var(--card-color);
     width: 100%;
     position: sticky;
     top: 0px;

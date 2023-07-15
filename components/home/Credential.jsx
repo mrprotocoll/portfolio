@@ -5,7 +5,7 @@ const Credential = () => {
     const year = parseInt((new Date()).getFullYear()) - 2020 
     return (
         <div data-aos="zoom-in">
-            <Card classes="about-client-box" target="_blank" link="https://docs.google.com/document/d/1GmCyGmMZcX5VIO0VFHmXWKmSEWzNAgvTgBERF3ZbEn0/edit?usp=sharing">
+            <Card classes="about-client-box" target="_blank" link="https://drive.google.com/file/d/1mIrHPBmxV-9MpqXeO67f2mR3ddJSpAsg/view?usp=sharing">
                 <div className="clients mb-2">
                     <div className="client-item">
                         <h1>{year}</h1>

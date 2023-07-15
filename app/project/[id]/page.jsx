@@ -102,14 +102,14 @@ export default function ProjectDetails({params}) {
               <h3>Description</h3>
               <p>{project.description}</p>
 
-              <h3 className="my-4">Features:</h3>
+              {/* <h3 className="my-4">Features:</h3>
               <ul>
                {
                   features.map((feature, x) => (
                     <li key={x} className="mt-0 mb-3 text-light">- {feature}</li>
                   ))
                 }
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
