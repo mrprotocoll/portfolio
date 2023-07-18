@@ -14,7 +14,7 @@ const Tools = ({ data }) => {
                         data.map((tool, x) => (
                             <div key={x} className="d-block text-center">
                                 <Link href={tool.link}>
-                                    <Image src={tool.image} alt={tool.name} width={40} height={40} className="black-and-white" />
+                                    <Image src={tool.image} alt={tool.title} width={40} height={40} className="black-and-white" />
                                 </Link>
                                 <p className="pt-2">{tool.title}</p>
                             </div>

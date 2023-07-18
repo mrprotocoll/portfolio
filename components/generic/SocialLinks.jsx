@@ -15,7 +15,7 @@ const SocialLinks = () => {
         <ul className="social-links pt-3 flex-wrap d-flex gap-3 text-light">
             {
                 socials.map(social => (
-                    <li><a target="_blank" title={social.name} className="text-light" href={social.link}>{social.icon}</a></li>
+                    <li key={social.name}><a target="_blank" title={social.name} className="text-light" href={social.link}>{social.icon}</a></li>
                 ))
             }
         </ul>
