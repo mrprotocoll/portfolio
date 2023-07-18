@@ -1664,11 +1664,13 @@ ol {
 }
 
 .social-links li a {
+    border-radius: 50%;
+    font-size: 15px;
     transition: .3s;
 }
 
 .social-links li a:hover {
-    background: var(--btn-color);
+    background: var(--btn-color) !important;
     padding: 7px;
     color: #0F0F0F;
 }

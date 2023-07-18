@@ -30,13 +30,7 @@ const AboutCard = ({ data }) => {
                     <h2>{data.name}</h2>
                     <p>{data.handle}</p>
 
-                    <ul className="social-links d-flex justify-content-center">
-                        <li><a target="_blank" href="https://mail.google.com/mail/?view=cm&to=lekanvgbg@gmail.com"><SendMail/></a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/in/mrprotocoll"><LinkedIn /></a></li>
-                        <li><a target="_blank" href="https://twitter.com/dprotocoll"><Twitter /></a></li>
-                        <li><a target="_blank" href="https://github.com/mrprotocoll"><GitHub /></a></li>
-                        <li><a target="_blank" href="https://medium.com/@mrprotocoll"><Medium /></a></li>
-                    </ul>
+                    <SocialLinks />
 
                     <Link href="/contact" className="theme-btn">Let&apos;s Work Together</Link>
                 </div>

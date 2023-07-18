@@ -1,13 +1,23 @@
 import { GitHub, LinkedIn, Medium, SendMail, Twitter } from "iconoir-react"
+import user from "@public/db/user"
 
 const SocialLinks = () => {
+    const data = user.socials
+    const socials = [
+        {name: "github", link: data.github, icon: <GitHub />},
+        {name: "linkedin", link: data.linkedin, icon: <LinkedIn />},
+        {name: "twitter", link: data.twitter, icon: <Twitter />},
+        {name: "medium", link: data.medium, icon: <Medium />},
+        {name: "email", link: data.mail, icon: <SendMail />}
+    ]
+
     return (  
-        <ul className="social-links pt-3 flex-wrap d-flex gap-2 text-light">
-            <li><a target="_blank" className="text-light shadow-box" href="https://mail.google.com/mail/?view=cm&to=lekanvgbg@gmail.com"><SendMail/></a></li>
-            <li><a target="_blank" className="text-light shadow-box" href="https://www.linkedin.com/in/mrprotocoll"><LinkedIn/></a></li>
-            <li><a target="_blank" className="text-light shadow-box" href="https://twitter.com/dprotocoll"><Twitter /></a></li>
-            <li><a target="_blank" className="text-light shadow-box" href="https://github.com/mrprotocoll"><GitHub /></a></li>
-            <li><a target="_blank" className="text-light shadow-box" href="https://medium.com/@mrprotocoll"><Medium /></a></li>
+        <ul className="social-links pt-3 flex-wrap d-flex gap-3 text-light">
+            {
+                socials.map(social => (
+                    <li><a target="_blank" title={social.name} className="text-light" href={social.link}>{social.icon}</a></li>
+                ))
+            }
         </ul>
     );
 }
