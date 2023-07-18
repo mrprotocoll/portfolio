@@ -21,7 +21,7 @@ export default function ProjectDetails({params}) {
         offset: 50,
     });
 
-    const projectData = user.projects.filter(proj => proj.id == params.id)
+    const projectData = user.projects.filter(proj => proj.url == params.id)
         setProject(projectData[0])
         setGallery(projectData[0].gallery)
         setTools(projectData[0].tools)

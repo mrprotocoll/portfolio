@@ -24,7 +24,7 @@ const ProjectList = ({ data }) => {
             {
                 data.map( project => (
                     <div key={project.id} data-aos="zoom-in" class="col-md-4">
-                        <Card classes="project-item" link={`/project/${project.id}`}>
+                        <Card classes="project-item" link={`/project/${project.url}`}>
                             <div class="project-img">
                             <Image src={project.image} alt={project.name} fill />
                             </div>

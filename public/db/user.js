@@ -68,6 +68,7 @@ const user = {
         {
             id: "1",
             name: "TourXtra",
+            url: "tourxtra",
             role: "Full-stack",
             date: "2023",
             description: "TourXtra is a tour reservation web app designed to simplify the process of booking and managing tour reservations. It provides users with a seamless experience to browse available tours, select desired tour packages, specify booking details, and receive confirmation for their reservations. The application is developed using JavaScript, React, Redux, Ruby on Rails, and PostgreSQL.",
@@ -82,6 +83,7 @@ const user = {
         {
             id: "2",
             name: "Recipe App",
+            url: "recipe-app",
             role: "Full-stack",
             date: "2023",
             description: "The Recipe app is a user-friendly web application designed to help users keep track of their recipes and ingredients. It provides a platform for creating and saving recipes, managing ingredient lists, tracking available ingredients, and generating a shopping list. The application is built using Ruby on Rails and utilizes Bootstrap for styling.",
@@ -96,6 +98,7 @@ const user = {
         {
             id: "3",
             name: "Budget App",
+            url: "budget-app",
             role: "Full-stack",
             date: "2023",
             description: "The MP-Budget app is a mobile web application designed to help users manage their budget effectively. It provides a platform for tracking transactions associated with different categories, enabling users to monitor their spending and allocate their funds accordingly. The app is accessible via mobile devices and focuses on providing a user-friendly experience.",
@@ -110,6 +113,7 @@ const user = {
         {
             id: "4",
             name: "Mp Bookstore",
+            url: "mp-bookstore",
             role: "Front-end",
             date: "2023",
             description: "The Bookstore is a React/Redux application that integrates with an API to provide users with a seamless experience for managing a list of books. The app allows users to display a list of books, add new books, and remove selected books, all while leveraging the power of API integration and testing. The primary focus of the project is on React and Redux, ensuring an efficient and intuitive user experience.",
