@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: {
-    default: 'Mrprotocoll Portfolio',
-    template: '%s | Mrprotocoll Portfolio'
+    default: 'Damilare protocoll Portfolio',
+    template: '%s | Damilare Protocoll'
   },
   description: 'This is my personal portfolio, where I showcase my skills, projects, and journey. Join me as I explore the world of technology and share my creative endeavors',
   keyword: []

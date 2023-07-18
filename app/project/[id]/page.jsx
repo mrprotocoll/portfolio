@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
-import Aos from "aos"
 import { useEffect, useState } from "react"
+import { notFound } from "next/navigation";
 import user from "@public/db/user"
 
 // export const metadata = {
@@ -15,17 +15,14 @@ export default function ProjectDetails({params}) {
   const [features, setFeatures] = useState([])
 
   useEffect(() => {
-    Aos.init({
-        easing: "ease-out-cubic",
-        once: true,
-        offset: 50,
-    });
+    const projectData = user.projects.filter(proj => proj.url == params.id)[0]
 
-    const projectData = user.projects.filter(proj => proj.url == params.id)
-        setProject(projectData[0])
-        setGallery(projectData[0].gallery)
-        setTools(projectData[0].tools)
-        setFeatures(projectData[0].features)
+    if(!projectData) notFound();
+    
+    setProject(projectData)
+    setGallery(projectData.gallery)
+    setTools(projectData.tools)
+    setFeatures(projectData.features)
 
   }, [params.id])
 
@@ -42,9 +39,8 @@ export default function ProjectDetails({params}) {
     </section>
 
     <section className="project-details-wrap">
-
       <div className="container">
-        <div data-aos="zoom-in">
+        <div>
           <div className="project-about-2 d-flex shadow-box mb-24">
             <Image src="/assets/images/bg1.png" fill alt="BG" className="bg-img" />
             <div className="left-details">
@@ -107,7 +103,7 @@ export default function ProjectDetails({params}) {
         <div className="row my-5 flex-wrap">
           {
             gallery.map((image, i) => (
-              <div key={i} className="col-md-6 mb-4" data-aos="zoom-in">
+              <div key={i} className="col-md-6 mb-4">
                 <div className="project-details-3-img">
                   <Image src={image} fill alt="Project" />
                 </div>

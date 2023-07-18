@@ -73,7 +73,7 @@ const user = {
             date: "2023",
             description: "TourXtra is a tour reservation web app designed to simplify the process of booking and managing tour reservations. It provides users with a seamless experience to browse available tours, select desired tour packages, specify booking details, and receive confirmation for their reservations. The application is developed using JavaScript, React, Redux, Ruby on Rails, and PostgreSQL.",
             tools: [ "JavaScript", "React", "Redux", "Ruby on Rails", "PostgrSQL", "Tailwind"],
-            features: ["User Registration and Authentication using JWT","Tour Selection and Booking: users can select and book their desired tour packages","Reservation: users can see all their reservations","API Documentation using Rsawg","Testing: using Rspec"],
+            features: ["User Registration and Authentication using JWT","API Documentation using Rsawg","Testing: using Rspec and jest"],
             github: "https://github.com/mrprotocoll/tourXtra",
             link: "https://tourxtra.onrender.com",
             category: "Tour Reservation System",
