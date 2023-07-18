@@ -30,7 +30,7 @@ const Form = () => {
 
         if(name && email && subject && message) {
             setLoading(true)
-            await fetch("https://formsubmit.co/484a1c2a8f3c061ae9394232d0ac6571", {
+            await fetch("https://formsubmit.co/lekanvgbg@gmail.com", {
                 method: "POST",
                 body: new URLSearchParams(formData),
             })
