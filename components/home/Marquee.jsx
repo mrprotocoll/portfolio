@@ -2,20 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
-const Marquee = () => {
-    const [marquee, setMarquee] = useState([])
-
-    useEffect(
-        () => {
-            (async () => {
-                const res = await fetch("/db/marquee.json")
-                const resData = await res.json()
-                setMarquee(resData)
-            })()
-        }, []
-    )
+const Marquee = ({ data }) => {
     return (
         <div data-aos="zoom-in">
             <div className="banner shadow-box">
@@ -23,7 +11,7 @@ const Marquee = () => {
                     <div>
                         <span>
                             {
-                                marquee.map((data, x) => (
+                                data.map((data, x) => (
                                     <span key={x}>
                                         <span dangerouslySetInnerHTML={{ __html: data.message }} />
                                         &nbsp;

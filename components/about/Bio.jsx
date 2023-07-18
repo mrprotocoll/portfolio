@@ -1,10 +1,9 @@
 "use client"
 
 import Aos from "aos"
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
-const Bio = () => {
-    const [data, setData] = useState({})
+const Bio = ({ about }) => {
 
     useEffect(() => {
         Aos.init({
@@ -12,20 +11,12 @@ const Bio = () => {
         once: true,
         offset: 50,
         });
-
-        // get profile data 
-        (async () => {
-        const response = await fetch("/db/bio.json")
-        const responseData = await response.json()
-
-        setData(responseData)
-        })()
     }, []);
 
     return (
         <div className="credential-about" data-aos="zoom-in">
             <h2>About Me</h2>
-            <div dangerouslySetInnerHTML={{ __html: data.about }} />
+            <div dangerouslySetInnerHTML={{ __html: about }} />
             {/* <p>{data.about}</p> */}
         </div>
     )

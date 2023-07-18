@@ -5,6 +5,8 @@ const user = {
     about: "<p>Hello! I'm a software developer passionate about developing scalable web applications and solving complex problems. Through my years of experience, I've mastered the art of crafting clean, efficient, and user-friendly applications that scales.</p><p> One of my greatest skills is my ability to understand the business perspectives of software engineering. I'm a great communicator, both in writing and verbally, and I always prioritize teamwork and collaboration in my work. I also have experience mentoring junior developers, which has helped me develop my leadership skills.</p>",
     title: "Software Engineer",
     handle: "@mrprotocoll",
+    cv: "https://drive.google.com/file/d/1mIrHPBmxV-9MpqXeO67f2mR3ddJSpAsg/view?usp=sharing",
+    startYear: 2020,
     socials: {facebook: "", twitter: "", github: "", gmail: "", medium: ""},
     education: [
         {

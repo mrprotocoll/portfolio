@@ -1,15 +1,7 @@
 import Card from "@components/card/Card";
 import CardInfo from "@components/card/CardInfo";
 
-const Skills = () => {
-    const data = [ 
-        [
-        "Full-stack Development", "Datastructure & Algorithm", "OOP","Database Design", "Wordpress", "Test-driven Development","System Testing", "API Documentation","UML","Git-flow", "RESTful API", "Jest", "RSpec","System Design"
-        ],
-        [
-            "Cross-cultural Communication",  "Teamwork", "Remote Pair-programming","Agile Methodology"
-        ],
-    ];
+const Skills = ({ data }) => {
 
     return (
         <div data-aos="zoom-in" className="">
@@ -17,7 +9,7 @@ const Skills = () => {
                 <h6>Technical Skills</h6>
                 <ul className="d-flex flex-wrap gap-2 mb-4">
                     {
-                        data[0].map((skill, x) => (
+                        data.hard.map((skill, x) => (
                             <li key={x}><button className="badge">{skill}</button></li>
                         ))
                     }
@@ -26,7 +18,7 @@ const Skills = () => {
                 <h6>Professional Skills</h6>
                 <ul className="d-flex flex-wrap gap-2 mb-4">
                     {
-                        data[1].map((skill, x) => (
+                        data.soft.map((skill, x) => (
                             <li key={x}><button className="badge">{skill}</button></li>
                         ))
                     }

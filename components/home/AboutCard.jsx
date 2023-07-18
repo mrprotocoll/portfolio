@@ -5,11 +5,10 @@ import Aos from "aos"
 import CardOverlay from "@components/card/CardOverlay"
 import CardInfo from "@components/card/CardInfo"
 import SocialLinks from "@components/generic/SocialLinks"
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 
 
-const AboutCard = () => {
-    const [data, setData] = useState({})
+const AboutCard = ({data}) => {
 
     useEffect(() => {
         Aos.init({
@@ -17,14 +16,6 @@ const AboutCard = () => {
         once: true,
         offset: 50,
         });
-
-        // get profile data 
-        (async () => {
-            const response = await fetch("/db/bio.json")
-            const responseData = await response.json()
-
-            setData(responseData)
-        })()
     }, []);
 
     return (

@@ -2,16 +2,11 @@
 import Image from "next/image"
 import Aos from "aos"
 import { useEffect, useState } from "react"
-import Link from "next/link"
+import user from "@public/db/user"
 
 // export const metadata = {
 //   title: 'Projects'
 // }
-
-const style = {
-  width: 297,
-  height: 296,
-};
 
 export default function ProjectDetails({params}) {
   const [project, setProject] = useState({})
@@ -26,16 +21,11 @@ export default function ProjectDetails({params}) {
         offset: 50,
     });
 
-    (async () => {
-        const res = await fetch("/db/projects.json")
-        const resData = await res.json()
-        const projectData = resData.filter(proj => proj.id == params.id)
-        console.log(projectData[0])
+    const projectData = user.projects.filter(proj => proj.id == params.id)
         setProject(projectData[0])
         setGallery(projectData[0].gallery)
         setTools(projectData[0].tools)
         setFeatures(projectData[0].features)
-    })()
 
   }, [params.id])
 
@@ -102,14 +92,14 @@ export default function ProjectDetails({params}) {
               <h3>Description</h3>
               <p>{project.description}</p>
 
-              {/* <h3 className="my-4">Features:</h3>
+              <h3 className="my-4">Features:</h3>
               <ul>
                {
                   features.map((feature, x) => (
                     <li key={x} className="mt-0 mb-3 text-light">- {feature}</li>
                   ))
                 }
-              </ul> */}
+              </ul>
             </div>
           </div>
         </div>

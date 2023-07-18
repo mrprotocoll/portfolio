@@ -1,14 +1,14 @@
 import CardInfo from "@components/card/CardInfo"
 import Card from "@components/card/Card"
 
-const Credential = () => {
-    const year = parseInt((new Date()).getFullYear()) - 2020 
+const Credential = ({cv, year}) => {
+    const years = parseInt((new Date()).getFullYear()) - year 
     return (
         <div data-aos="zoom-in">
-            <Card classes="about-client-box" target="_blank" link="https://drive.google.com/file/d/1mIrHPBmxV-9MpqXeO67f2mR3ddJSpAsg/view?usp=sharing">
+            <Card classes="about-client-box" target="_blank" link={cv}>
                 <div className="clients mb-2">
                     <div className="client-item">
-                        <h1>{year}</h1>
+                        <h1>{years}</h1>
                         <p>Years <br />Experience</p>
                     </div>
                 </div>

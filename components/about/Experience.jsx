@@ -1,11 +1,9 @@
 "use client"
 
 import Aos from "aos"
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
-const Experience = ({ education = false }) => {
-    const [data, setData] = useState([])
-    const endpoint = education ? "/db/education.json" : "/db/experience.json"
+const Experience = ({ data, education = false }) => {
 
     useEffect(() => {
         Aos.init({
@@ -14,13 +12,6 @@ const Experience = ({ education = false }) => {
         offset: 50,
         });
 
-        // get profile data 
-        (async () => {
-        const response = await fetch(endpoint)
-        const responseData = await response.json()
-
-        setData(responseData)
-        })()
     }, []);
 
     return (

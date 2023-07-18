@@ -4,27 +4,14 @@ import Card from "@components/card/Card";
 import CardInfo from "@components/card/CardInfo";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
-const Tools = () => {
-    const [tools, setTools] = useState([])
-
-    useEffect(
-        () => {
-            (async () => {
-                const res = await fetch("/db/tools.json")
-                const resData = await res.json()
-                setTools(resData)
-            })()
-        }, []
-    )
-
+const Tools = ({ data }) => {
     return (
         <div data-aos="zoom-in" className="">
             <Card classes="about-profile-box" link="/about#tools">
                 <div className="inner-profile-icons shadow-box flex-wrap">
                     {
-                        tools.map((tool, x) => (
+                        data.map((tool, x) => (
                             <div key={x} className="d-block text-center">
                                 <Link href={tool.link}>
                                     <Image src={tool.image} alt={tool.name} width={40} height={40} className="black-and-white" />

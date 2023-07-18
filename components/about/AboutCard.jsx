@@ -7,23 +7,13 @@ import CardOverlay from "@components/card/CardOverlay";
 import Link from "next/link";
 import { Twitter, GitHub, LinkedIn, Medium, SendMail } from 'iconoir-react'
 import SocialLinks from "@components/generic/SocialLinks";
-const AboutCard = () => {
-    const [data, setData] = useState({})
-
+const AboutCard = ({ data }) => {
     useEffect(() => {
         Aos.init({
         easing: "ease-out-cubic",
         once: true,
         offset: 50,
         });
-
-        // get profile data 
-        (async () => {
-        const response = await fetch("/db/bio.json")
-        const responseData = await response.json()
-
-        setData(responseData)
-        })()
     }, []);
 
     return (
