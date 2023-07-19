@@ -33,6 +33,9 @@ const Form = () => {
             await fetch("https://formspree.io/f/xpzgwpqo", {
                 method: "POST",
                 body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
             })
             .then((response) => {
                 setLoading(false)
