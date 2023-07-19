@@ -202,9 +202,10 @@ ol {
 
 
 .theme-btn {
-    background: var(--btn-color);
+    /* background: var(--btn-color); */
+    background: transparent;
     border: 1px solid var(--btn-color) !important;
-    color: #fff;
+    color: var(--btn-color);
     display: inline-block;
     transition: .3s;
     border-radius: 50px;

@@ -30,22 +30,23 @@ const Form = () => {
 
         if(name && email && subject && message) {
             setLoading(true)
-            await fetch("https://formsubmit.co/lekanvgbg@gmail.com", {
+            await fetch("https://formspree.io/f/xpzgwpqo", {
                 method: "POST",
-                body: new URLSearchParams(formData),
+                body: formData,
             })
             .then((response) => {
+                setLoading(false)
                 if(response.ok) {
-                    setLoading(false)
                     successMessage()
                     setEmail("")
                     setMessage("")
                     setName("")
                     setSubject("")
                     setErrorMessage("")
-                } 
+                }else{
+                    setErrorMessage("Oops! There was a problem. Try again")
+                }
             })
-
         }else {
             setLoading(false)
             setErrorMessage("All fields are required")

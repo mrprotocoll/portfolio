@@ -1,5 +1,5 @@
 const user = {
-    name: "Damilare Protocoll",
+    name: "Damilare Protocol",
     image: "/assets/images/profile-picture.png",
     bio: "I am passionate about making a difference with my work and I thrive in a collaborative environment where teamwork and collaboration are valued.",
     about: "<p>Hello! I'm a software developer passionate about developing scalable web applications and solving complex problems. Through my years of experience, I've mastered the art of crafting clean, efficient, and user-friendly applications that scales.</p><p> One of my greatest skills is my ability to understand the business perspectives of software engineering. I'm a great communicator, both in writing and verbally, and I always prioritize teamwork and collaboration in my work. I also have experience mentoring junior developers, which has helped me develop my leadership skills.</p>",
@@ -46,15 +46,15 @@ const user = {
     ],
     headline: [
         {
-            message: "I recently completed the Full-stack Developer training at Microverse <span>&#x1F60A;</span>.",
-            link: "https://www.credential.net/f33de9df-8b44-400c-861a-9d80f7cab917",
-            title: "CERTIFICATE",
+            message: "I am currently contibuting to ",
+            link: "https://github.com/hackjunction/JunctionApp",
+            title: "JunctionApp",
             target: "_blank"
         },
         {
-            message: "MY LATEST WORK.",
-            link: "https://github.com/mrprotocoll/tourXtra",
-            title: "TourXtra",
+            message: " I am participating in ",
+            link: "https://railshackathon.com",
+            title: "Rails Hackathon 2023",
             target: "_blank"
         },
         {
