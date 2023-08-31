@@ -158,6 +158,16 @@ const user = {
             title: "Figma"
         },
         {
+            image: "/assets/images/tech/php.png",
+            link: "#",
+            title: "PHP"
+        },
+        {
+            image: "/assets/images/tech/laravel.png",
+            link: "#",
+            title: "Laravel"
+        },
+        {
             image: "/assets/images/tech/ruby.png",
             link: "#",
             title: "Ruby"
@@ -166,11 +176,6 @@ const user = {
             image: "/assets/images/tech/rails.png",
             link: "#",
             title: "Rails"
-        },
-        {
-            image: "/assets/images/tech/php.png",
-            link: "#",
-            title: "PHP"
         },
         {
             image: "/assets/images/tech/mysql.png",
