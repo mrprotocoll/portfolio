@@ -17,9 +17,9 @@ const user = {
     education: [
         {
             company: "Microverse",
-            role: "Full-stack Developer",
-            year: "2023 - Currently",
-            achievements: "I am Spending 1300+ hours mastering algorithms, data structures, and full-stack development. And also Developing skills in pair programming using GitHub, industry-standard gitflow, and daily standups to collaborate with international remote developers."
+            role: "Full-stack Development",
+            year: "2022 - 2023",
+            achievements: "I spent 1300+ hours mastering algorithms, data structures, and full-stack development. I also Developed skills in pair programming using GitHub, industry-standard gitflow, and daily standups to collaborate with international remote developers."
         },
         {
             company: "Yaba College of Technology",
@@ -46,15 +46,15 @@ const user = {
     ],
     headline: [
         {
-            message: "I am currently contibuting to ",
+            message: "I am currently contributing to ",
             link: "https://github.com/hackjunction/JunctionApp",
             title: "JunctionApp",
             target: "_blank"
         },
         {
-            message: " I am participating in ",
-            link: "https://railshackathon.com",
-            title: "Rails Hackathon 2023",
+            message: " I am currently building ",
+            link: "https://github.com/mrprotocoll/dunia",
+            title: "Dunia",
             target: "_blank"
         },
         {
@@ -205,10 +205,10 @@ const user = {
     ],
     skills: {
         hard: [
-            "Full-stack Development", "Datastructure & Algorithm", "OOP","Database Design", "Wordpress", "Test-driven Development","System Testing", "API Documentation","UML","Git-flow", "RESTful API", "Jest", "RSpec","System Design"
+            "Full-stack Development", "Data structures & Algorithm", "OOP","Database Design", "Test-driven Development","System Testing", "API Documentation","UML","Git-flow", "RESTFul API", "PHPUnit", "Scribe", "Jest", "RSpec"
             ],
         soft: [
-            "Cross-cultural Communication",  "Teamwork", "Remote Pair-programming","Agile Methodology"
+            "Cross-cultural Communication",  "Leadership", "Teamwork", "Remote Pair-programming","Agile Methodology"
         ]
     } 
 }

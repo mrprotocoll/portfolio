@@ -1,0 +1,6 @@
+{
+    message: " I am participating in ",
+    link: "https://railshackathon.com",
+    title: "Rails Hackathon 2023",
+    target: "_blank"
+},
