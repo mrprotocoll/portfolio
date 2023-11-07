@@ -6,7 +6,7 @@ const user = {
     title: "Software Engineer",
     handle: "@mrprotocoll",
     cv: "https://drive.google.com/file/d/1mIrHPBmxV-9MpqXeO67f2mR3ddJSpAsg/view?usp=sharing",
-    startYear: 2020,
+    startYear: 2019,
     socials: {
         linkedin: "https://www.linkedin.com/in/mrprotocoll", 
         twitter: "https://twitter.com/dprotocoll", 
