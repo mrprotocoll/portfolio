@@ -2,10 +2,9 @@
 
 import Image from "next/image"
 import Aos from "aos"
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import CardOverlay from "@components/card/CardOverlay";
 import Link from "next/link";
-import { Twitter, GitHub, LinkedIn, Medium, SendMail } from 'iconoir-react'
 import SocialLinks from "@components/generic/SocialLinks";
 const AboutCard = ({ data }) => {
     useEffect(() => {
@@ -25,7 +24,7 @@ const AboutCard = ({ data }) => {
                     <div className="img-box position-relative">
                         <Image src={data.image}  className="object-contain" fill 
                         sizes="(max-width: 768px) 322px, 323px, (max-width: 1200px) 322px, 323px" 
-                        alt="About Me" />
+                        alt={data.name} />
                     </div>
                     <h2>{data.name}</h2>
                     <p>{data.handle}</p>

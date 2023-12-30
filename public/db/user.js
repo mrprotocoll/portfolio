@@ -1,12 +1,12 @@
 const user = {
     name: "Damilare Protocol",
-    image: "/assets/images/profile-picture.png",
+    image: "/assets/images/mrprotocoll.png",
     bio: "I am passionate about making a difference with my work and I thrive in a collaborative environment where teamwork and collaboration are valued.",
     about: "<p>Hello! I'm a software developer passionate about developing scalable web applications and solving complex problems. Through my years of experience, I've mastered the art of crafting clean, efficient, and user-friendly applications that scales.</p><p> One of my greatest skills is my ability to understand the business perspectives of software engineering. I'm a great communicator, both in writing and verbally, and I always prioritize teamwork and collaboration in my work. I also have experience mentoring junior developers, which has helped me develop my leadership skills.</p>",
     title: "Software Engineer",
     handle: "@mrprotocoll",
-    cv: "https://drive.google.com/file/d/1mIrHPBmxV-9MpqXeO67f2mR3ddJSpAsg/view?usp=sharing",
-    startYear: 2019,
+    cv: "https://docs.google.com/document/d/e/2PACX-1vSYB2GdGMuweSW53rxJ_HyU3XNOcuN7rQQ9Gkk4ufbDS4cjSPDO68tQNF2A648GsOGOWEDqxuT7eE5U/pub",
+    startYear: 2020,
     socials: {
         linkedin: "https://www.linkedin.com/in/mrprotocoll", 
         twitter: "https://twitter.com/dprotocoll", 
@@ -18,8 +18,8 @@ const user = {
         {
             company: "Microverse",
             role: "Full-stack Development",
-            year: "2022 - 2023",
-            achievements: "I spent 1300+ hours mastering algorithms, data structures, and full-stack development. I also Developed skills in pair programming using GitHub, industry-standard gitflow, and daily standups to collaborate with international remote developers."
+            year: "2022",
+            achievements: "I spent 1300+ hours mastering algorithms, data structures, and full-stack development. I also Developed skills in pair programming using GitHub, industry-standard gitflow, and daily stand-ups to collaborate with international remote developers."
         },
         {
             company: "Yaba College of Technology",
@@ -46,15 +46,15 @@ const user = {
     ],
     headline: [
         {
-            message: "I am currently contributing to ",
-            link: "https://github.com/hackjunction/JunctionApp",
-            title: "JunctionApp",
+            message: " I am currently building ",
+            link: "https://github.com/mrprotocoll/resplify",
+            title: "Resplify",
             target: "_blank"
         },
         {
-            message: " I am currently building ",
-            link: "https://github.com/mrprotocoll/dunia",
-            title: "Dunia",
+            message: "I am currently contributing to ",
+            link: "https://github.com/RoadTrip-Community/Wokhive-Frontend",
+            title: "WokHive",
             target: "_blank"
         },
         {
