@@ -75,37 +75,33 @@ const user = {
     projects: [
         {
             id: "1",
-            name: "Idara",
-            url: "Idara",
-            role: "Backend",
+            name: "TourXtra",
+            url: "tourxtra",
+            role: "Full-stack",
             date: "2023",
-            description: "The Idara project is a comprehensive web application aimed at easing the complexities of business registration and regulatory compliance across Africa. The platform offers a suite of services to assist businesses in incorporating, managing compliance obligations, and obtaining necessary licenses. Users can navigate the intricate legal landscape with ease, thanks to the services and tools provided by Idara. The website is designed with an intuitive user interface and is focused on delivering efficient and streamlined experiences for businesses." +
-                "\n" +
-                "I worked as a Backend Engineer on the Idara project and was responsible for developing robust backend functionalities using Laravel. My key contributions include crafting APIs, integrating various services, ensuring security and efficiency of the backend processes, and managing the database. Additionally, I handled the deployment of the web application on AWS, ensuring high availability and scalability.",
-            tools: [ "Laravel", "MySQL", "AWS (EC2, RDS, S3)", "Git","Github Actions", "Pest", "Db-diagram (ERD)"],
-            features: ["Business Registration","Fintech Licensing","API Documentation using Swagger","Testing: using PhpUnit", 'User, Agent and Admin Dashboard'],
-            github: "#",
-            link: "https://goidara.com",
-            category: "Business Registration and Compliance Web Application",
-            image: "/assets/images/projects/idara/idara.png",
-            gallery: ["/assets/images/projects/idara/idara-1.png","/assets/images/projects/idara/idara-2.png","/assets/images/projects/idara/idara-3.png", "/assets/images/projects/idara/idara-4.png","/assets/images/projects/idara/idara-5.png"]
+            description: "TourXtra is a tour reservation web app designed to simplify the process of booking and managing tour reservations. It provides users with a seamless experience to browse available tours, select desired tour packages, specify booking details, and receive confirmation for their reservations. The application is developed using JavaScript, React, Redux, Ruby on Rails, and PostgreSQL.",
+            tools: [ "JavaScript", "React", "Redux", "Ruby on Rails", "PostgrSQL", "Tailwind"],
+            features: ["User Registration and Authentication using JWT","API Documentation using Rsawg","Testing: using Rspec and jest"],
+            github: "https://github.com/mrprotocoll/tourXtra",
+            link: "https://tourxtra.onrender.com",
+            category: "Tour Reservation System",
+            image: "/assets/images/projects/tourxtra.png",
+            gallery: ["/assets/images/projects/tourxtra-1.png","/assets/images/projects/tourxtra-2.png","/assets/images/projects/tourxtra-3.png", "/assets/images/projects/tourxtra-4.png","/assets/images/projects/tourxtra-5.png","/assets/images/projects/tourxtra-6.png"]
         },
         {
             id: "2",
-            name: "Craftcheck AI",
-            url: "craftcheck",
-            role: "Backend",
-            date: "2024",
-            description: "CraftCheck AI is an innovative web application designed to audit and optimize websites for better conversion rates. Users can easily input their website URL to receive a detailed analysis that highlights areas for improvement and suggests actionable steps to enhance user experience, design, and overall performance. This platform helps users turn their leads into paying clients through data-driven recommendations and AI-powered insights.\n" +
-                "\n" +
-                "I was responsible for developing the backend of CraftCheck AI using Laravel and ensuring seamless deployment to AWS. My role was pivotal in creating a robust and efficient backend system that handles user inputs, processes website audits, and generates comprehensive reports.",
-            tools: [ "Laravel", "PostgreSQL", "AWS (EC2, RDS, S3)", "Git","Github Actions", "Pest", "Db-diagram (ERD)"],
-            features: ["Website Audit","Detailed Recommendations","API Documentation using Swagger","Testing: using Pest", 'User and Admin Dashboard',"Automated Reports"],
-            github: "#",
-            link: "https://ai.mycraftcheck.com",
-            category: "Website and Conversion Optimization Application",
-            image: "/assets/images/projects/craftcheck/craftcheck.png",
-            gallery: ["/assets/images/projects/craftcheck/craftcheck-1.png","/assets/images/projects/craftcheck/craftcheck-2.png","/assets/images/projects/craftcheck/craftcheck-3.png", "/assets/images/projects/craftcheck/craftcheck-4.png"]
+            name: "Recipe App",
+            url: "recipe-app",
+            role: "Full-stack",
+            date: "2023",
+            description: "The Recipe app is a user-friendly web application designed to help users keep track of their recipes and ingredients. It provides a platform for creating and saving recipes, managing ingredient lists, tracking available ingredients, and generating a shopping list. The application is built using Ruby on Rails and utilizes Bootstrap for styling.",
+            tools: ["Ruby on Rails", "PostgreSQL", "Bootstrap", "devise"],
+            features: ["User Registration and Authentication using Devise","Shopping List Generation","Recipe Management","Ingredient Tracking","Testing: Rspec, capybara"],
+            github: "https://github.com/microverse-journey/recipe_app",
+            link: "https://recipe-app-ydj5.onrender.com",
+            category: "Recipe and Ingeridient Web Application",
+            image: "/assets/images/projects/recipe-logo.png",
+            gallery: ["/assets/images/projects/recipe-1.png","/assets/images/projects/recipe-2.png","/assets/images/projects/recipe-3.png", "/assets/images/projects/recipe-4.png","/assets/images/projects/recipe-5.png","/assets/images/projects/recipe-6.png"]
         },
         {
             id: "3",
