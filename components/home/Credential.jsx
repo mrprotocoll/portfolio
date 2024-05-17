@@ -2,7 +2,7 @@ import CardInfo from "@components/card/CardInfo"
 import Card from "@components/card/Card"
 
 const Credential = ({cv, year}) => {
-    const years = parseInt((new Date()).getFullYear()) - year 
+    const years = parseInt((new Date()).getFullYear()) - year
     return (
         <div data-aos="zoom-in">
             <Card classes="about-client-box" target="_blank" link={cv}>
