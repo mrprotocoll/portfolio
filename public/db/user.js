@@ -106,36 +106,6 @@ const user = {
             category: "Website and Conversion Optimization Application",
             image: "/assets/images/projects/craftcheck/craftcheck.png",
             gallery: ["/assets/images/projects/craftcheck/craftcheck-1.png","/assets/images/projects/craftcheck/craftcheck-2.png","/assets/images/projects/craftcheck/craftcheck-3.png", "/assets/images/projects/craftcheck/craftcheck-4.png"]
-        },
-        {
-            id: "3",
-            name: "Budget App",
-            url: "budget-app",
-            role: "Full-stack",
-            date: "2023",
-            description: "The MP-Budget app is a mobile web application designed to help users manage their budget effectively. It provides a platform for tracking transactions associated with different categories, enabling users to monitor their spending and allocate their funds accordingly. The app is accessible via mobile devices and focuses on providing a user-friendly experience.",
-            tools: ["Ruby on Rails", "PostgreSQL", "Bootstrap", "devise"],
-            features: ["User Registration and Authentication using Devise","Budget Overview: it provides an overview of the user's budget, displaying the total amount spent and allocated across different categories.","Category Management","Testing: Rspec, capybara"],
-            github: "https://github.com/microverse-journey/mp-budget",
-            link: "https://mp-budget.onrender.com/",
-            category: "Budget Management Web Mobile App",
-            image: "/assets/images/projects/budget-logo.png",
-            gallery: ["/assets/images/projects/budget-1.png","/assets/images/projects/budget-2.png","/assets/images/projects/budget-3.png", "/assets/images/projects/budget-4.png","/assets/images/projects/budget-5.png"]
-        },
-        {
-            id: "4",
-            name: "Mp Bookstore",
-            url: "mp-bookstore",
-            role: "Front-end",
-            date: "2023",
-            description: "The Bookstore is a React/Redux application that integrates with an API to provide users with a seamless experience for managing a list of books. The app allows users to display a list of books, add new books, and remove selected books, all while leveraging the power of API integration and testing. The primary focus of the project is on React and Redux, ensuring an efficient and intuitive user experience.",
-            tools: [ "JavaScript", "React", "Redux"],
-            features: ["Book List Display: Users can view a list of books fetched from the API","Add New Books: Users can add new books to the bookstore by providing relevant details such as title and author","Testing: Jest, React Testing Library"],
-            github: "https://github.com/mrprotocoll/bookstore",
-            link: "https://mp-bookstore.onrender.com/",
-            category: "Book Store Web Application",
-            image: "/assets/images/projects/bookstore.png",
-            gallery: ["/assets/images/projects/bookstore-1.png"]
         }
     ],
     tools: [
