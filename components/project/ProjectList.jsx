@@ -19,14 +19,16 @@ const ProjectList = ({ data }) => {
     }, [])
 
     return (
-        <div class="row align-items-start flex-wrap">
+        <div className="row align-items-start flex-wrap">
 
             {
                 data.map( project => (
-                    <div key={project.id} data-aos="zoom-in" class="col-md-4">
+                    <div key={project.id} data-aos="zoom-in" className="col-md-4">
                         <Card classes="project-item" link={`/project/${project.url}`}>
-                            <div class="project-img">
-                            <Image src={project.image} alt={project.name} fill />
+                            <div className="project-img">
+                            <Image src={project.image} alt={project.name} fill style={{
+                                objectFit: 'cover',
+                            }} />
                             </div>
                             <div className="d-flex align-items-center justify-content-between">
                                 <CardInfo name={project.category} title={project.name}  link={`/project/${project.id}`} />
